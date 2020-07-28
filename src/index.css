@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: azure !important;
+}
+.navbar-brand {
+    font-size: 1.9rem !important;
+}
