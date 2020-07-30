@@ -1,9 +1,17 @@
 import React from 'react'
+import web from '../src/images/gis_word.jpg'
+import { NavLink } from 'react-router-dom'
+import Common from './Common'
 
 const About = () => {
     return(
         <>
-        <h1>Welcome to About page</h1>
+        <Common 
+        name = "Welcome to about page"
+        imgsrc = {web}
+        visit = "/service"
+        btnName = "Contact us" 
+        />
         </>
     )
 }

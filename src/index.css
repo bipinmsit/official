@@ -1,11 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
 }
-.navbar {
-    background-color: azure !important;
+#header {
+    width: 100%;
+    margin-top: 70px;
+}
+#header h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+#header h2 {
+    color: grey;
+    font-size: 24px;
+}
+#header .brand-name {
+    color: dodgerblue;
+}
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
 }
 .navbar-brand {
-    font-size: 1.9rem !important;
+    font-size: 2rem !important;
+    font-weight: bold;
+    color: mediumpurple !important;
+}
+.menu_active {
+    font-weight: bold;
+    border-bottom: 1px solid blueviolet;
+
+}
+.navbar a:hover {
+    color: blue !important;
 }

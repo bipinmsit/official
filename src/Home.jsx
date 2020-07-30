@@ -1,9 +1,16 @@
 import React from 'react'
+import web from '../src/images/business1.jpg'
+import { NavLink } from 'react-router-dom'
+import Common from './Common'
 
 const Home = () => {
     return(
         <>
-        <h1>Welcome to Home page</h1>
+        <Common
+        name = "Grow your geo-spatial business with"
+        imgsrc = {web}
+        visit = "/service"
+        btnName = "Get Started" />
         </>
     )
 }
