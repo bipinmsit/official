@@ -1,13 +1,16 @@
 import React, {useState} from 'react'
+import contact from './images/contact-us.jpg'
 
-const Contact = () => {
+const NewContact = () => {
     const [data, setData] = useState({
-        name: "",
-        email: "",
-        contact: ""
+        fname: '',
+        surname: '',
+        email: '',
+        phone: ''
     })
     const inputEvent = (event) => {
         const {name, value} = event.target
+        console.log(event.target)
         setData((oldVal) => {
             return(
                 {
@@ -17,66 +20,105 @@ const Contact = () => {
             )
         })
     }
-    const formSubmit = () => {
-        alert(`Thanks ${data.name}! We will get back to you shortly.`)
-    }
+const formSubmit = () => {
+    alert(`Thanks ${data.fname} ${data.surname}! We will get back to you shortly.`)
+}
     return(
         <>
-        <div className="container mt-5">
-        <div className="row">
-            <div className="col-sm-6 mx-auto">
-
-            <form onSubmit={formSubmit}>
-            <div className="mb-3">
-                <label className="form-label">Name:</label>
-                <input type="text" className="form-control" aria-describedby="emailHelp" required
-                name="name"
-                value={data.name}
-                onChange={inputEvent} />
-            </div>
-                <div className="mb-3">
-                    <label className="mr-5">Gender: </label>
-                    <div className="form-check form-check-inline">
-                    <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
-                    <label className="form-check-label">Male</label>
+            <div className="contact">
+            <div className="container text-center">
+                <div className="row">
+                    <div className="col-xl-6 mx-auto mb-5 offset-xl-2 mx-auto">
+                        <img src={contact} className="w-100 h-100" alt="contact-us" />
                     </div>
-                    <div className="form-check form-check-inline">
-                    <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-                    <label className="form-check-label">Female</label>
                 </div>
             </div>
+            <div className="container">
+            <div className="row">
 
-            <div className="mb-3">
-                <label className="form-label">Email address:</label>
-                <input type="email" className="form-control"
-                name="email"
-                value={data.email}
-                onChange={inputEvent} />
-                <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+                <div className="col-xl-6 offset-xl-2 mx-auto">
+                    <form id="contact-form" onSubmit={formSubmit}>
+
+                        <div className="messages"></div>
+
+                        <div className="controls">
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <div className="form-group">
+                                        <label>Firstname *</label>
+                                        <input id="form_name" type="text" 
+                                        name="fname" 
+                                        className="form-control" 
+                                        placeholder="Please enter your firstname *" 
+                                        required="required"
+                                        data-error="Firstname is required."
+                                        value={data.fname}
+                                        onChange={inputEvent} />
+                                        <div className="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6">
+                                    <div className="form-group">
+                                        <label>Lastname *</label>
+                                        <input id="form_lastname" type="text" 
+                                        name="surname" 
+                                        className="form-control" 
+                                        placeholder="Please enter your lastname *" 
+                                        required="required"
+                                        data-error="Lastname is required."
+                                        value={data.surname}
+                                        onChange={inputEvent} />
+                                        <div className="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <div className="form-group">
+                                        <label>Email *</label>
+                                        <input id="form_email" type="email" 
+                                        name="email" 
+                                        className="form-control" 
+                                        placeholder="Please enter your email *" 
+                                        required="required"
+                                        data-error="Valid email is required."
+                                        value={data.email}
+                                        onChange={inputEvent} />
+                                        <div className="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6">
+                                    <div className="form-group">
+                                        <label>Phone</label>
+                                        <input id="form_phone" type="tel" 
+                                        name="phone" 
+                                        className="form-control" 
+                                        placeholder="Please enter your phone"
+                                        value={data.phone}
+                                        onChange={inputEvent} />
+                                        <div className="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="form-group">
+                                <label>Message *</label>
+                                <textarea id="form_message" 
+                                name="message" className="form-control" placeholder="Message for me *" rows="4" required="required"
+                                    data-error="Please, leave us a message."></textarea>
+                                <div className="help-block with-errors"></div>
+                            </div>
+                            <input type="submit" className="btn btn-success btn-send" value="Send message" />
+
+                            <p className="text-muted">
+                                <strong>*</strong> These fields are required.</p>
+
+                        </div>
+                    </form>
+                </div>
             </div>
-
-            <div className="mb-3">
-                <label className="form-label">Contact no:</label>
-                <input type="text" className="form-control" required
-                name="contact"
-                value={data.contact}
-                onChange={inputEvent} />
-                <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
             </div>
-
-            <div className="mb-3 form-check">
-                <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                <label className="form-check-label">Check me out</label>
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
-            </form>
-
-
-            </div>
-        </div>
-
-        </div>
         </>
     )
 }
-export default Contact
+export default NewContact

@@ -37,18 +37,7 @@ const Footer = () => {
       
       <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
-        <p>
-          <a href="/" className="text-body" >MDBootstrap</a>
-        </p>
-        <p>
-          <a href="/" className="text-body">MDWordPress</a>
-        </p>
-        <p>
-          <a href="/" className="text-body">BrandFlow</a>
-        </p>
-        <p>
-          <a href="/" className="text-body">Bootstrap Angular</a>
-        </p>
+
       </div>
       
 
@@ -56,18 +45,15 @@ const Footer = () => {
 
       
       <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 className="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <h6 className="text-uppercase mb-4 font-weight-bold">Useful Info</h6>
         <p>
-          <a href="/" className="text-body">Your Account</a>
+          <a href="https://pcjericks.github.io/py-gdalogr-cookbook/" className="text-body">GDAL/OGR</a>
         </p>
         <p>
-          <a href="/" className="text-body">Become an Affiliate</a>
+          <a href="https://automating-gis-processes.github.io/site/" className="text-body">GIS Automation</a>
         </p>
         <p>
-          <a href="/" className="text-body">Shipping Rates</a>
-        </p>
-        <p>
-          <a href="/" className="text-body">Help</a>
+          <a href="/" className="text-body">Important Links</a>
         </p>
       </div>
 

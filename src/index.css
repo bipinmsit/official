@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 .navbar {
     background-color: black;
     z-index: 1000;
   }
   .navbar .navbar-brand {
-    color: crimson;
+    color: darkturquoise;
     font-size: 40px;
     font-weight: bold;
+    font-family: 'Krona One', sans-serif;
   }
-  .navbar .navbar-brand img:hover,
+  .navbar .navbar-brand:hover,
   .navbar .navbar-brand:focus {
     color: burlywood;
   }
@@ -134,33 +137,17 @@
       height: 100%;
   }
   .carousel-caption{
-      top: 15%;
+      top: 10%;
       bottom: auto;
   }
   .heading1{
-    font-size: 55px;
+    margin-bottom: 150px;
   }
-  .heading {
-      color: cornsilk;
-      font-size: 50px;
-      text-shadow: 2px 2px burlywood;
+  .heading2 {
+      margin-bottom: 150px;
+      font-weight: bold;
+      color: blue;
   }
-  .sub-heading {
-    color: greenyellow;
-    font-size: 40px;
-    text-shadow: 2px 2p coral;
-}
-.heading2 {
-  color: blue;
-  font-size: 40px;
-  text-shadow: 2px 2px burlywood;
-}
-.sub-heading2 {
-color: lightgoldenrodyellow;
-font-size: 40px;
-text-shadow: 4px 4p red;
-}
-
 .animate__animated.animate__bounce {
     --animate-duration: 5s;
   }
@@ -190,4 +177,7 @@ text-shadow: 4px 4p red;
 }
 .contact {
   margin-top: 100px;
+}
+.text-justify {
+  text-align: justify;
 }
