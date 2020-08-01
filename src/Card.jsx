@@ -1,5 +1,4 @@
 import React from 'react'
-import web from './images/gis-3d.jpg'
 import { NavLink } from 'react-router-dom'
 
 const Card = (props) => {

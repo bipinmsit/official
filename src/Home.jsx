@@ -1,16 +1,19 @@
 import React from 'react'
 import web from '../src/images/business1.jpg'
-import { NavLink } from 'react-router-dom'
 import Common from './Common'
+import HomeCarousel from './HomeCarousel'
 
 const Home = () => {
     return(
         <>
-        <Common
-        name = "Grow your geo-spatial business with"
-        imgsrc = {web}
-        visit = "/service"
-        btnName = "Get Started" />
+        <HomeCarousel />
+        <div className="home">
+            <Common
+            name = "Grow your geo-spatial business with"
+            imgsrc = {web}
+            visit = "/service"
+            btnName = "Get Started" />
+        </div>
         </>
     )
 }
