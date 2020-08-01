@@ -1,17 +1,17 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from './images/logo.PNG'
 
 const Navbar = () => {
     return(
         <>
-        <div class="container bg-transparent">
-        <div class="row">
-            <div class="col-12">
+        <div className="container-fluid">
+        <div className="row">
+            <div className="col-sm col-md col-lg">
 
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav className="navbar navbar-expand-lg fixed-top mx-3">
                 <div className="container-fluid">
-                    <img src="./images/3d.jpg" alt="icon" />
-                    <NavLink className="navbar-brand" to="/">bipinmsit</NavLink>
+                    <NavLink className="navbar-brand" to="/"><img src={logo} alt="logo" className="w-75" /></NavLink>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
