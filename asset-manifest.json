@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/official/static/css/main.f7595e48.chunk.css",
-    "main.js": "/official/static/js/main.36800988.chunk.js",
-    "main.js.map": "/official/static/js/main.36800988.chunk.js.map",
+    "main.css": "/official/static/css/main.79866c55.chunk.css",
+    "main.js": "/official/static/js/main.1879133b.chunk.js",
+    "main.js.map": "/official/static/js/main.1879133b.chunk.js.map",
     "runtime-main.js": "/official/static/js/runtime-main.09c98985.js",
     "runtime-main.js.map": "/official/static/js/runtime-main.09c98985.js.map",
     "static/css/2.6d6924ba.chunk.css": "/official/static/css/2.6d6924ba.chunk.css",
-    "static/js/2.7e16f321.chunk.js": "/official/static/js/2.7e16f321.chunk.js",
-    "static/js/2.7e16f321.chunk.js.map": "/official/static/js/2.7e16f321.chunk.js.map",
+    "static/js/2.7d6dc951.chunk.js": "/official/static/js/2.7d6dc951.chunk.js",
+    "static/js/2.7d6dc951.chunk.js.map": "/official/static/js/2.7d6dc951.chunk.js.map",
     "index.html": "/official/index.html",
-    "precache-manifest.4e4ad57d568e68422398954e9a3c04a0.js": "/official/precache-manifest.4e4ad57d568e68422398954e9a3c04a0.js",
+    "precache-manifest.cc93a9eb8abc48dad2030c3ac4c4878f.js": "/official/precache-manifest.cc93a9eb8abc48dad2030c3ac4c4878f.js",
     "service-worker.js": "/official/service-worker.js",
     "static/css/2.6d6924ba.chunk.css.map": "/official/static/css/2.6d6924ba.chunk.css.map",
-    "static/css/main.f7595e48.chunk.css.map": "/official/static/css/main.f7595e48.chunk.css.map",
-    "static/js/2.7e16f321.chunk.js.LICENSE.txt": "/official/static/js/2.7e16f321.chunk.js.LICENSE.txt",
+    "static/css/main.79866c55.chunk.css.map": "/official/static/css/main.79866c55.chunk.css.map",
+    "static/js/2.7d6dc951.chunk.js.LICENSE.txt": "/official/static/js/2.7d6dc951.chunk.js.LICENSE.txt",
     "static/media/business1.jpg": "/official/static/media/business1.d325a9ad.jpg",
     "static/media/carousel4.png": "/official/static/media/carousel4.b7039d36.png",
     "static/media/carousel6.png": "/official/static/media/carousel6.005d2df0.png",
     "static/media/carousel7.png": "/official/static/media/carousel7.b63a00a2.png",
     "static/media/contact-us.jpg": "/official/static/media/contact-us.194d1259.jpg",
     "static/media/gis-3d.jpg": "/official/static/media/gis-3d.be5ebaca.jpg",
-    "static/media/gis_word.jpg": "/official/static/media/gis_word.478fa49a.jpg",
-    "static/media/logo.PNG": "/official/static/media/logo.f857c3c6.PNG"
+    "static/media/gis_word.jpg": "/official/static/media/gis_word.478fa49a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.09c98985.js",
     "static/css/2.6d6924ba.chunk.css",
-    "static/js/2.7e16f321.chunk.js",
-    "static/css/main.f7595e48.chunk.css",
-    "static/js/main.36800988.chunk.js"
+    "static/js/2.7d6dc951.chunk.js",
+    "static/css/main.79866c55.chunk.css",
+    "static/js/main.1879133b.chunk.js"
   ]
 }
