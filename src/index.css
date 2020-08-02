@@ -5,8 +5,8 @@
     z-index: 1000;
   }
   .navbar .navbar-brand {
-    color: darkturquoise;
-    font-size: 40px;
+    color: orangered;
+    font-size: 1.1em;
     font-weight: bold;
     font-family: 'Krona One', sans-serif;
   }
@@ -43,15 +43,9 @@
     color: burlywood;
     background-color: #8e44ad;
   }
-  .navbar .navbar-toggle {
-    border-color: #8e44ad;
-  }
-  .navbar .navbar-toggle:hover,
-  .navbar .navbar-toggle:focus {
-    background-color: #8e44ad;
-  }
-  .navbar .navbar-toggle .navbar-toggler-icon {
-    color: white;
+  .navbar .navbar-toggler {
+    font-size: .8em;
+    background-color: white;
   }
   .navbar .navbar-collapse,
   .navbar .navbar-form {
@@ -76,7 +70,8 @@
       color: burlywood;
       background-color: #8e44ad;
     }
-  }
+    
+}
   
   @media (max-width: 767px) {
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -90,7 +85,8 @@
       color: burlywood;
       background-color: #8e44ad;
     }
-  }
+    
+}
   
   @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -104,7 +100,8 @@
       color: burlywood;
       background-color: #8e44ad;
     }
-  }
+    
+}
   
   @media (max-width: 1199px) {
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -118,6 +115,7 @@
       color: burlywood;
       background-color: #8e44ad;
     }
+    
   }
   
   .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -130,23 +128,15 @@
   .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: burlywood;
     background-color: #8e44ad;
-  }
+  } 
   .carousel, 
   .carousel-inner 
   .carousel-inner .carousel-item{
       height: 100%;
   }
   .carousel-caption{
-      top: 10%;
+      top: 15%;
       bottom: auto;
-  }
-  .heading1{
-    margin-bottom: 150px;
-  }
-  .heading2 {
-      margin-bottom: 150px;
-      font-weight: bold;
-      color: blue;
   }
 .animate__animated.animate__bounce {
     --animate-duration: 5s;
@@ -167,17 +157,34 @@
   --animate-duration: 5s;
 }
 .about {
-  margin-top: 140px;
+  margin-top: 15vh;
+  
 }
 .home {
-  margin-top: 50px;
+  margin-top: 7vh;
 }
 .service {
-  margin-top: 100px;
+  margin-top: 15vh;
 }
 .contact {
-  margin-top: 100px;
+  margin-top: 15vh;
+}
+.importantLink {
+  margin-top: 15vh;
 }
 .text-justify {
   text-align: justify;
 }
+.carousel-inner .carousel-item .carousel-caption h1 {
+  font-size: 2.5em;
+  margin-bottom: 15vh;
+  }
+  .carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 2em;
+  margin-bottom: 15vh;
+  font-weight: bold;
+  color: red;
+  }
+  .heading1 {
+    color: black;
+  }

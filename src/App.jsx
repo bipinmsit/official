@@ -8,6 +8,7 @@ import Contact from './Contact'
 import Navbar from './Navbar'
 import {Switch, Route, Redirect} from 'react-router-dom'
 import Footer from './Footer'
+import ImportantLink from './ImportantLink'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
             <Route exact path='/about' component={About} />
             <Route exact path='/service' component={Service} />
             <Route exact path='/contact' component={Contact} />
+            <Route exact path='/home/importantLink' component={ImportantLink} />
             <Redirect to='/' />
         </Switch>
         <Footer />

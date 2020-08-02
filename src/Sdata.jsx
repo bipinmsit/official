@@ -1,28 +1,28 @@
-import web from './images/gis-3d.jpg'
+import model3d from './images/gis-3d.jpg'
 
 const Sdata = [
     {
-        imgsrc: web,
+        imgsrc: model3d,
         title: "GIS Application"
     },
     {
-        imgsrc: web,
+        imgsrc: model3d,
         title: "GIS Application"
     },
     {
-        imgsrc: web,
+        imgsrc: model3d,
         title: "GIS Application"
     },
     {
-        imgsrc: web,
+        imgsrc: model3d,
         title: "GIS Application"
     },
     {
-        imgsrc: web,
+        imgsrc: model3d,
         title: "GIS Application"
     },
     {
-        imgsrc: web,
+        imgsrc: model3d,
         title: "GIS Application"
     }
 ]

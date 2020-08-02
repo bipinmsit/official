@@ -7,6 +7,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import { NavLink } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -26,9 +27,7 @@ const Footer = () => {
       
       <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Company name</h6>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
+        <p className="text-justify">Welcome to the world of bipinmsit to be updated with latest open source tools & GIS Technology.</p>
       </div>
       
 
@@ -37,6 +36,9 @@ const Footer = () => {
       
       <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
+        <p>
+          <a href="https://pcjericks.github.io/py-gdalogr-cookbook/" className="text-body">GDAL/OGR</a>
+        </p>
 
       </div>
       
@@ -53,7 +55,7 @@ const Footer = () => {
           <a href="https://automating-gis-processes.github.io/site/" className="text-body">GIS Automation</a>
         </p>
         <p>
-          <a href="/" className="text-body">Important Links</a>
+          <NavLink exact to="/home/importantLink" className="text-body">Important Links</NavLink>
         </p>
       </div>
 
