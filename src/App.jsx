@@ -9,7 +9,6 @@ import Navbar from './Navbar'
 import {Switch, Route, Redirect} from 'react-router-dom'
 import Footer from './Footer'
 import ImportantLink from './ImportantLink'
-import Digitization from './Digitization'
 import ServiceMenu from './ServiceMenu'
 import Gallary from './Gallary'
 

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import image1 from '../src/images/bipin3.png'
 import image2 from './images/choose.jpg'
 
@@ -12,7 +12,7 @@ const About = () => {
             <div className="col-7 mr-5">
 
                     <h2 className="align-text-top"> About: </h2>
-                    <p className="text-justify mx-auto">
+                    <div className="text-justify mx-auto">
                         Learning every day on Technologies i.e Geospatial & Data management, Open source tools etc contributing to implement large enterprise projects, big database and enterprise wise applications including real time data transfer. <br />
                         To enhance & develop technical skills and become Master in 
                         SPATIAL INFORMATION TECHNOLOGY abbreviated as <strong>msit</strong> that fulfill need and aspiration along with the organization
@@ -25,7 +25,7 @@ const About = () => {
 
                             <div>
                                 <nav id="navbar-example2" className="navbar navbar-light bg-light">
-                                <a className="navbar-brand" href="#">bipinmsit</a>
+                                <a className="navbar-brand" href="/home">bipinmsit</a>
                                 <ul className="nav nav-pills">
                                     <li className="nav-item">
                                     <a className="nav-link" href="#fat">Achievements</a>
@@ -34,7 +34,7 @@ const About = () => {
                                     <a className="nav-link" href="#mdo">Projects</a>
                                     </li>
                                     <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Acedemic</a>
+                                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="acedemic" role="button" aria-haspopup="true" aria-expanded="false">Acedemic</a>
                                     <div className="dropdown-menu">
                                         <a className="dropdown-item" href="#one">M.Tech</a>
                                         <div role="separator" className="dropdown-divider"></div>
@@ -86,20 +86,19 @@ const About = () => {
                                 </p>
                                 <h4 id="two">Bachelor of Engineering</h4>
                                 <p>
-                                <p>
                                     <u>Institute </u>: <strong>Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal (M.P), India </strong> <em>74.75%</em>
                                 </p>
-                                </p>
+
                                 </div>
                             </div>
 
 
                         </div>
-                    </p>
+                    </div>
             </div>
                 <div className="col-3">
                 <figure className="figure">
-                    <img src={image1} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure." />
+                    <img src={image1} className="figure-img img-fluid rounded" alt="about_image" />
                     <figcaption className="figure-caption"> Image captured @ aspecscire.com </figcaption>
                 </figure>
                 </div>

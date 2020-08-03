@@ -4,7 +4,6 @@ import image2 from './images/carousel6.png'
 import image3 from './images/carousel8.png'
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import './../node_modules/animate.css/animate.css'
-import Social from './Social'
 
 
 const HomeCarousel = () => {

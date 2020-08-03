@@ -1,5 +1,4 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
 import image1 from '../src/images/business1.jpg'
 import image2 from './images/carousel6.png'
 import HomeCarousel from './HomeCarousel'
