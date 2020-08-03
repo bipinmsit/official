@@ -9,7 +9,7 @@ const About = () => {
         <div className="about">
         <div className="container">
             <div className="row d-flex justify-content-center align-items-md-start">
-            <div className="col-7 mr-5">
+            <div className="col-sm-7 col-md-7 col-lg-7 flex-wrap">
 
                     <h2 className="align-text-top"> About: </h2>
                     <div className="text-justify mx-auto">
@@ -96,9 +96,9 @@ const About = () => {
                         </div>
                     </div>
             </div>
-                <div className="col-3">
+                <div className="col-sm-3 col-md-3 col-lg-3 flex-wrap">
                 <figure className="figure">
-                    <img src={image1} className="figure-img img-fluid rounded" alt="about_image" />
+                    <img src={image1} className="figure-img img-fluid rounded float-right" alt="about_image" />
                     <figcaption className="figure-caption"> Image captured @ aspecscire.com </figcaption>
                 </figure>
                 </div>
@@ -110,32 +110,34 @@ const About = () => {
         <div>
             <div className="container">
             <div className="row d-flex justify-content-center align-items-md-startmt-5">
-                <div className="col-3 ">
-                    <img src={image2} className="img-fluid rounded animated w-80 float-right" alt="about img" />
+                <div className="col-sm-3 col-md-3 col-lg-3 flex-wrap">
+                    <img src={image2} className="img-fluid rounded animated w-100 float-left" alt="about img" />
                 </div>
 
-                <div className="col-7">                    
-                    <h2 className="ml-5"> Why Choose Us: </h2>
-                    <ul className="ml-5">
-                        <li className="text-justify p-1 ">
-                        A strong strategy, design and functioning capability
-                        </li>
-                        <li className="text-justify p-1">
-                        Strong customer relationship and satisfaction
-                        </li>
-                        <li className="text-justify p-1">
-                        Provide bespoke solutions
-                        </li>
-                        <li className="text-justify p-1">
-                        Competitive prices
-                        </li>
-                        <li className="text-justify p-1">
-                        Value for money proficient working practices
-                        </li>
-                        <li className="text-justify p-1">
-                        Quality assurance & responsibility
-                        </li>
-                    </ul>
+                <div className="col-sm-7 col-md-7 col-lg-7 flex-wrap">                    
+                    <div className="float-right">
+                        <h2 className="text-justify"> Why Choose Us: </h2>
+                        <ul>
+                            <li className="text-justify p-1 ">
+                            A strong strategy, design and functioning capability
+                            </li>
+                            <li className="text-justify p-1">
+                            Strong customer relationship and satisfaction
+                            </li>
+                            <li className="text-justify p-1">
+                            Provide bespoke solutions
+                            </li>
+                            <li className="text-justify p-1">
+                            Competitive prices
+                            </li>
+                            <li className="text-justify p-1">
+                            Value for money proficient working practices
+                            </li>
+                            <li className="text-justify p-1">
+                            Quality assurance & responsibility
+                            </li>
+                        </ul>
+                    </div>
 
                 </div>
             </div>
