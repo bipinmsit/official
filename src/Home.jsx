@@ -19,9 +19,7 @@ const Home = () => {
                     To expand Market reach by creating Awareness amongst students about Geospatial Technologies and make them able to See Spatial, Feel Spatial.
 
                     </p>
-                    <div >
-                        <NavLink exact to="/contact" className="btn btn-outline-primary" > Contact us </NavLink>
-                    </div>
+
                 </div>
 
                 <div className="col-xl-5">
@@ -47,9 +45,7 @@ const Home = () => {
                     We work with the construction industry, which is modernizing by investing heavily in technology. Our customers are trendsetters in this industry by adopting our technology to revolutionize all aspects of their business.
 
                     </p>
-                    <div >
-                        <NavLink exact to="/contact" className="btn btn-outline-primary" > Contact us </NavLink>
-                    </div>
+
                 </div>
             </div>
             </div>

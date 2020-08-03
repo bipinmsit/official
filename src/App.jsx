@@ -9,6 +9,9 @@ import Navbar from './Navbar'
 import {Switch, Route, Redirect} from 'react-router-dom'
 import Footer from './Footer'
 import ImportantLink from './ImportantLink'
+import Digitization from './Digitization'
+import ServiceMenu from './ServiceMenu'
+import Gallary from './Gallary'
 
 
 const App = () => {
@@ -21,6 +24,8 @@ const App = () => {
             <Route exact path='/service' component={Service} />
             <Route exact path='/contact' component={Contact} />
             <Route exact path='/home/importantLink' component={ImportantLink} />
+            <Route exact path='/home/gallary' component={Gallary} />
+            <Route exact path='/service/serviceMenu' component={ServiceMenu} />
             <Redirect to='/' />
         </Switch>
         <Footer />

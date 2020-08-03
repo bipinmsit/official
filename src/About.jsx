@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import {NavLink} from 'react-router-dom'
 import image1 from '../src/images/bipin3.png'
 import image2 from './images/choose.jpg'
 
@@ -9,8 +8,8 @@ const About = () => {
         <>
         <div className="about">
         <div className="container">
-            <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-xl-7 mr-5">
+            <div className="row d-flex justify-content-center align-items-md-start">
+            <div className="col-7 mr-5">
 
                     <h2 className="align-text-top"> About: </h2>
                     <p className="text-justify mx-auto">
@@ -23,15 +22,82 @@ const About = () => {
                         Know more
                         </button>
                         <div id="collapseOne" className="collapse">
-                        <div className="card card-body">
-                                Drones, or Unmanned Aerial Vehicles (UAV), are an incredible piece of technology providing a vantage platform from which to observe things. Sensors on the other hand are the equivalent of the human senses. Together, sensors mounted on drones, can collect all kinds of data. <br />
-                                However data is only meaningful if converted into information. That’s the mission of Aspec Scire, Latin for elevated viewing. We have built a platform for converting data into actionable analytics. These analytics help businesses operate more efficiently by bringing in better transparency, greater collaboration and deeper insights into their operations. <br />
-                                We work with the construction industry, which is modernizing by investing heavily in technology. Our customers are trendsetters in this industry by adopting our technology to revolutionize all aspects of their business.
-                        </div>
+
+                            <div>
+                                <nav id="navbar-example2" className="navbar navbar-light bg-light">
+                                <a className="navbar-brand" href="#">bipinmsit</a>
+                                <ul className="nav nav-pills">
+                                    <li className="nav-item">
+                                    <a className="nav-link" href="#fat">Achievements</a>
+                                    </li>
+                                    <li className="nav-item">
+                                    <a className="nav-link" href="#mdo">Projects</a>
+                                    </li>
+                                    <li className="nav-item dropdown">
+                                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Acedemic</a>
+                                    <div className="dropdown-menu">
+                                        <a className="dropdown-item" href="#one">M.Tech</a>
+                                        <div role="separator" className="dropdown-divider"></div>
+                                        <a className="dropdown-item" href="#two">B.Tech</a>
+                
+                                    </div>
+                                    </li>
+                                </ul>
+                                </nav>
+                                <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" className="aboutScrollspy">
+                                <h4 id="fat">Certification/Achievements:</h4>
+                                <ul>
+                                    <li>
+                                    Excellent work performance certificate by Indian Institute of Remote Sensing, Indian Space Research Organization (ISRO), Dept. of Space, Govt. of India, Dehradun (Uttarakhand)) on Research project entitled ‘Temporal Analysis of Hydrological Parameters & Space borne Gravity Anomaly for Deciphering Groundwater Depletion Scenario in North-West India.’ 
+                                    </li>
+                                    <li>
+                                    Cambridge University ESOL Entry Level Certificate in ESOL International (Business- English) (Council of 
+                                    Europe Level A2).
+                                    </li>
+                                    <li>
+                                    Good Speaker Certificate in “NATIONAL STUDENT CONVENTION” (KALEIDOSKOPE-09) for Presenting a 
+                                    Seminar on “4G TECHNOLOGY” at ITM Gwalior.
+                                    </li>
+                                    <li>
+                                    Qualified GATE 2013 (96.01%) ➢ Qualified GATE 2012 (94%). ➢ Qualified BCECE Examination in 2007 & 2008.
+                                    </li>
+                                    <li>
+                                    Achieved 3rd Prize in the event of “COLLAGE-MAKING” Organized by BVM College of Technology & 
+                                    Management Gwalior (M.P.) India.
+                                    </li>
+                                    <li>
+                                    Achieved 9th Rank in Board Examination of 10th (in district). 
+                                    </li>
+                                </ul>
+                                <h4 id="mdo">Projects:</h4>
+                                <ul>
+                                    <li>
+                                    Temporal Analysis of Hydrological Parameters and Space borne Gravity Anomaly for Deciphering of Groundwater Depletion scenario in North-West India. <br />
+                                        <u>Organization</u>: <strong> Indian Institute of Remote Sensing (IIRS), Indian Space Research Organization (ISRO), Dept. of Space, Govt. of India, Dehradun (Uttarakhand) </strong>
+                                    </li>
+                                    <li>
+                                    GPS based digital maps and implementation of land management system using webGIS server <br />
+                                    <u>Organization</u>: <strong> Ennore Port Limited, Ministry of Shipping, Govt. of India </strong>
+                                    </li>
+                                </ul>
+                                <h4 id="one">Master of Technology</h4>
+                                <p>
+                                    <u>Institute </u>: <strong>Devi Ahilya Vishwavidyalaya, Indore (M.P), India </strong> <em>76.48%</em>
+                                </p>
+                                <h4 id="two">Bachelor of Engineering</h4>
+                                <p>
+                                <p>
+                                    <u>Institute </u>: <strong>Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal (M.P), India </strong> <em>74.75%</em>
+                                </p>
+                                </p>
+                                </div>
+                            </div>
+
+
                         </div>
                     </p>
             </div>
-                <div className="col-xl-3">
+                <div className="col-3">
                 <figure className="figure">
                     <img src={image1} className="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure." />
                     <figcaption className="figure-caption"> Image captured @ aspecscire.com </figcaption>
@@ -42,14 +108,14 @@ const About = () => {
         </div>
 
 
-        <div className="about">
+        <div>
             <div className="container">
-            <div className="row d-flex justify-content-center align-items-center">
-                <div className="col-xl-4 mr-5 ">
+            <div className="row d-flex justify-content-center align-items-md-startmt-5">
+                <div className="col-3 ">
                     <img src={image2} className="img-fluid rounded animated w-80 float-right" alt="about img" />
                 </div>
 
-                <div className="col-xl-6">                    
+                <div className="col-7">                    
                     <h2 className="ml-5"> Why Choose Us: </h2>
                     <ul className="ml-5">
                         <li className="text-justify p-1 ">

@@ -16,7 +16,7 @@ const Footer = () => {
 
 
 
-<footer className="page-footer font-small bg-secondary text-light mt-4 pt-2">
+<footer className="page-footer font-small bg-secondary text-light align-bottom mt-4 pt-2">
 
   
   <div className="container text-center text-md-left">
@@ -55,6 +55,9 @@ const Footer = () => {
           <a href="https://automating-gis-processes.github.io/site/" className="text-body">GIS Automation</a>
         </p>
         <p>
+          <NavLink exact to="/home/gallary" className="text-body">Gallary</NavLink>
+        </p>
+        <p>
           <NavLink exact to="/home/importantLink" className="text-body">Important Links</NavLink>
         </p>
       </div>
@@ -64,7 +67,7 @@ const Footer = () => {
 
       
       <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <h6 className="text-uppercase mb-4 font-weight-bold">Contact Info</h6>
         <p>
           <HomeIcon/> Bangalore, 560068, India</p>
         <p>

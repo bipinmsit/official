@@ -22,34 +22,34 @@ const HomeCarousel = () => {
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-interval="10000">
                         <img src={image1} className="d-block w-100" alt="..." />
-                        <div className="carousel-caption d-none d-md-block">
-                            <h1>Welcome to the World of <br /> <span style={{fontWeight:"bold"}}>Spatial Information Technology</span></h1>
-                            <h5 className="animate__animated animate__bounceIn animate__infinite">A Complete & Latest Platform for <span style={{fontWeight:"bold", color:"cyan"}}>GIS DEVELOPER</span></h5>
+                        <div className="carousel-caption">
+                            <h1>Welcome to the World of <br /> <span style={{color:"orange"}}>Spatial Information Technology</span></h1>
+                            <h5 className="animate__animated animate__bounceIn animate__infinite">A Complete & Latest Platform for <span style={{color:"orange"}}>GIS DEVELOPER</span></h5>
                             <div className="iconPosition">
                                 <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="btn btn-danger animate__animated animate__bounce animate__infinite p-2"> Subscribe My Channel <SubscriptionsIcon /> </a>
-                                <Social />
+                               
                             </div>
                         </div>
                         </div>
                         <div className="carousel-item" data-interval="15000">
                         <img src={image2} className="d-block w-100" alt="..." />
-                        <div className="carousel-caption d-none d-md-block" >
-                            <h1>Technology Changes The World, Let Us Change Yours!</h1>
+                        <div className="carousel-caption" >
+                            <h1>Technology Changes The World, <br /> Let Us Change Yours! </h1>
                             <h5 className="animate__animated animate__fadeInRight animate__slow animate__infinite">Learn Everyday New Technology & Track Your Growth</h5>
                             <div className="iconPosition mx-auto">
                                 <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="btn btn-danger animate__animated animate__bounce animate__infinite p-2"> Subscribe My Channel <SubscriptionsIcon /> </a>
-                                <Social />
+                               
                             </div>
                         </div>
                         </div>
                         <div className="carousel-item" data-interval="17000">
                         <img src={image3} className="d-block w-100" alt="..." />
-                        <div className="carousel-caption d-none d-md-block">
-                            <h1 className="heading1">Digitize Your Geo spatial Assets and Maximize Productivity</h1>
+                        <div className="carousel-caption">
+                            <h1 className="heading1">Digitize Your Geo spatial Assets and <br /> Maximize Productivity </h1>
                             <h5 className="heading2 animate__animated animate__lightSpeedInRight animate__slow animate__infinite">Smart GIS Data Management & Analytics</h5>
                             <div className="iconPosition mx-auto">
                                 <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="btn btn-danger animate__animated animate__bounce animate__infinite p-2"> Subscribe My Channel <SubscriptionsIcon /> </a>
-                                <Social />
+                               
                             </div>
                         </div>
                         </div>

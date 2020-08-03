@@ -10,8 +10,8 @@ const Card = (props) => {
                 <img src={props.imgSource} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title"> {props.cardTitle} </h5>
-                    <p className="card-text">write content here</p>
-                    <NavLink to="#" className="btn btn-primary">Click here</NavLink>
+                    <p className="card-text"> {props.cardContent} </p>
+                    <NavLink to="service/serviceMenu" className="btn btn-primary">Check here</NavLink>
                 </div>
                 </div>
             </div>

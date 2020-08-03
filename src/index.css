@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
 
 .navbar {
     background-color: black;
@@ -14,34 +19,13 @@
   .navbar .navbar-brand:focus {
     color: burlywood;
   }
-  .navbar .navbar-text {
+  .navbar .navbar-nav .nav-item .nav-link{
     color: white;
+    border-radius: 0.25rem;
+    font-weight: bold;
   }
-  .navbar .navbar-text a {
+  .navbar .navbar-nav .nav-item .menu_active {
     color: burlywood;
-  }
-  .navbar .navbar-text a:hover,
-  .navbar .navbar-text a:focus {
-    color: burlywood; 
-  }
-  .navbar .navbar-nav .nav-link {
-    color: white;
-    border-radius: .25rem;
-    margin: 0 0.25em;
-    font-weight: 500;
-  }
-  .navbar .navbar-nav .nav-link:not(.disabled):hover,
-  .navbar .navbar-nav .nav-link:not(.disabled):focus {
-    color: burlywood;
-  }
-  .navbar .navbar-nav .nav-item.active .nav-link,
-  .navbar .navbar-nav .nav-item.active .nav-link:hover,
-  .navbar .navbar-nav .nav-item.active .nav-link:focus,
-  .navbar .navbar-nav .nav-item.show .nav-link,
-  .navbar .navbar-nav .nav-item.show .nav-link:hover,
-  .navbar .navbar-nav .nav-item.show .nav-link:focus {
-    color: burlywood;
-    background-color: #8e44ad;
   }
   .navbar .navbar-toggler {
     font-size: .8em;
@@ -132,12 +116,26 @@
   .carousel, 
   .carousel-inner 
   .carousel-inner .carousel-item{
-      height: 100%;
+      height: auto;
   }
   .carousel-caption{
       top: 15%;
       bottom: auto;
   }
+  .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 2rem;
+    margin-bottom: 15vh;
+    font-weight: bold;
+    }
+    .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 2rem;
+    margin-bottom: 13vh;
+    font-weight: bold;
+    color: red;
+    }
+    .heading1 {
+      color: black;
+    }
 .animate__animated.animate__bounce {
     --animate-duration: 5s;
   }
@@ -156,6 +154,11 @@
 .animate__animated {
   --animate-duration: 5s;
 }
+.aboutScrollspy {
+    height: 300px;
+    position: relative;
+    overflow-y: scroll;
+  }
 .about {
   margin-top: 15vh;
   
@@ -172,19 +175,25 @@
 .importantLink {
   margin-top: 15vh;
 }
+.sidenav {
+  margin-top: 15vh;
+}
+.digitization {
+  margin-top: 15vh;
+}
 .text-justify {
   text-align: justify;
 }
-.carousel-inner .carousel-item .carousel-caption h1 {
-  font-size: 2.5em;
-  margin-bottom: 15vh;
-  }
-  .carousel-inner .carousel-item .carousel-caption h5 {
-  font-size: 2em;
-  margin-bottom: 15vh;
-  font-weight: bold;
-  color: red;
-  }
-  .heading1 {
-    color: black;
-  }
+
+/* For side menu bar */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
