@@ -11,7 +11,7 @@ const Social = () => {
         <>
         <div className="container">
             <div className="row">
-                <div className="col-sm-3 mx-auto bg-light">
+                <div className="col-sm-5 mx-auto p-1">
                 <li className="list-inline-item">
                 <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="text-body mx-1">
                     <YouTubeIcon id="youtube" />

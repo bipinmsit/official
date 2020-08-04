@@ -1,0 +1,17 @@
+#youtube{
+    font-size: 32px;
+  }
+  .social_icon:hover{
+      color: cornflowerblue;
+  }
+  #youtube:hover{
+    color: red;
+  }
+  #instagram:hover{
+    color: #f09433;
+  }
+  .page-footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
