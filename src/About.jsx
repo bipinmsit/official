@@ -1,29 +1,28 @@
 import React from 'react'
 import image1 from '../src/images/bipin3.png'
 import image2 from './images/choose.jpg'
+import './css/about.css'
 
 const About = () => {
     return(
         <>
-        <div className="about">
+        <div className="about mb-3">
         <div className="container">
-            <div className="row d-flex justify-content-center align-items-md-start">
-            <div className="col-sm-7 col-md-7 col-lg-7 flex-wrap">
+            <div className="row">
+            <div className="col-9">
 
                     <h2 className="align-text-top"> About: </h2>
-                    <div className="text-justify mx-auto">
+                    <div className="text-justify">
                         Learning every day on Technologies i.e Geospatial & Data management, Open source tools etc contributing to implement large enterprise projects, big database and enterprise wise applications including real time data transfer. <br />
                         To enhance & develop technical skills and become Master in 
-                        SPATIAL INFORMATION TECHNOLOGY abbreviated as <strong>msit</strong> that fulfill need and aspiration along with the organization
+                        SPATIAL INFORMATION TECHNOLOGY abbreviated as MSIT that fulfill need and aspiration along with the organization
                         with loyalty and honesty.
-
                         <button className="show btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
                         Know more
                         </button>
                         <div id="collapseOne" className="collapse">
-
                             <div>
-                                <nav id="navbar-example2" className="navbar navbar-light bg-light">
+                                <nav id="navbar-example2" className="navbar navbar-light">
                                 <a className="navbar-brand" href="/home">bipinmsit</a>
                                 <ul className="nav nav-pills">
                                     <li className="nav-item">
@@ -33,7 +32,7 @@ const About = () => {
                                     <a className="nav-link" href="#mdo">Projects</a>
                                     </li>
                                     <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="acedemic" role="button" aria-haspopup="true" aria-expanded="false">Acedemic</a>
+                                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#acedemic" role="button" aria-haspopup="true" aria-expanded="false">Acedemic</a>
                                     <div className="dropdown-menu">
                                         <a className="dropdown-item" href="#one">M.Tech</a>
                                         <div role="separator" className="dropdown-divider"></div>
@@ -90,15 +89,13 @@ const About = () => {
 
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
             </div>
-                <div className="col-sm-3 col-md-3 col-lg-3 flex-wrap">
-                <figure className="figure">
-                    <img src={image1} className="figure-img img-fluid rounded float-right" alt="about_image" />
-                    <figcaption className="figure-caption"> Image captured @ aspecscire.com </figcaption>
+                <div className="col-3">
+                <figure className="figure float-right">
+                    <img src={image1} className="figure-img img-fluid rounded" alt="about_image" />
+                    <figcaption className="figure-caption"></figcaption>
                 </figure>
                 </div>
             </div>
@@ -108,32 +105,35 @@ const About = () => {
 
         <div>
             <div className="container">
-            <div className="row d-flex justify-content-center align-items-md-startmt-5">
-                <div className="col-sm-3 col-md-3 col-lg-3 flex-wrap">
-                    <img src={image2} className="img-fluid rounded animated w-100 float-left" alt="about img" />
+            <div className="row">
+                <div className="col-3">
+                <figure className="figure float-left">
+                    <img src={image2} className="img-fluid rounded animated w-100" alt="about img" />
+                    <figcaption className="figure-caption"></figcaption>
+                </figure>
                 </div>
 
-                <div className="col-sm-7 col-md-7 col-lg-7 flex-wrap">                    
-                    <div className="float-right">
-                        <h2 className="text-justify"> Why Choose Us: </h2>
+                <div className="col-9 ">                    
+                    <div className="d-flex justify-content-center align-items-center flex-column">
                         <ul>
-                            <li className="text-justify p-1 ">
-                            A strong strategy, design and functioning capability
+                            <h2 className="align-left"> Why Choose Us: </h2>
+                            <li className="p-1">
+                                A strong strategy, design and functioning capability
                             </li>
-                            <li className="text-justify p-1">
-                            Strong customer relationship and satisfaction
+                            <li className="p-1">
+                                Strong customer relationship and satisfaction
                             </li>
-                            <li className="text-justify p-1">
-                            Provide bespoke solutions
+                            <li className="p-1">
+                                Provide bespoke solutions
                             </li>
-                            <li className="text-justify p-1">
-                            Competitive prices
+                            <li className="p-1">
+                                Competitive prices
                             </li>
-                            <li className="text-justify p-1">
-                            Value for money proficient working practices
+                            <li className="p-1">
+                                Value for money proficient working practices
                             </li>
-                            <li className="text-justify p-1">
-                            Quality assurance & responsibility
+                            <li className="p-1">
+                                Quality assurance & responsibility
                             </li>
                         </ul>
                     </div>

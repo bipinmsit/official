@@ -3,7 +3,8 @@ import digitization from './digitization.jpg'
 import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
-const DigitizationService = () => {
+const TopographicalMapping = () => {
+    console.log(NavLink)
     return(
         <>
         <div className="gisService">
@@ -11,7 +12,7 @@ const DigitizationService = () => {
             <div className="row">
                 <div className="col-3">
                     <div className="sidenav">
-                        <NavLink exact to="/service/gisService"><h4>GIS Services</h4></NavLink> 
+                        <NavLink exact to="/service/gisService"><h4>GIS Services</h4></NavLink>
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/digitalPhotogrammetry">Digital Photogrammetry</NavLink>
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/digitization">Digitization</NavLink>
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/remoteSensing">Remote Sensing</NavLink>
@@ -28,27 +29,25 @@ const DigitizationService = () => {
                 <div className="col-9">
                 <figure className="figure">
                     <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
-                    <div className="service">Digitization</div>
+                    <div className="service">Topographical Mapping</div>
                     <figcaption className="figure-caption"></figcaption>
                 </figure>
                 <div className="text-justify">
                     <p>
-                    Digitization services involve converting any physical document into a digital file. This ensures easy handling, sharing and editing of the document. Digitization services are used for converting maps, sketches, schematic diagrams, or circuit diagrams. They are known for ensuring positional accuracy of the objects and is therefore useful in many industries. Digitization services are also used in contour maps, topographic maps, zonal maps, cadastral maps, and utility maps.
+                    Topographic mapping services helps in route planning, thematic data preparation, and decision-making for telecom and transport services and disaster management. The 3D topographic maps cover an area of approximately thousands of square kilometres and therefor require experienced expertise.<br/><br/>
 
-                    bipinmsit offers digitization services such as complete CAD Conversion, paper to CAD Conversions and CAD Drafting. These Digitization services are rendered using global standards and therefore the resulting products have high precision and quality. The digitization services at bipinmsit seamlessly convert paper drawings and maps into highly accurate digital files, with the help of paper to CAD conversions. <br /> <br />
-                    The various digitization services at bipinmsit are:
+                    AABSyS IT offers topographic mapping services to create comprehensive topographic maps and 3D topographic maps to the specified projection parameters, contours with ‘Z’ values, relief & planimetric details. AABSyS IT has successfully executed large-scale topographic mapping and 3D topographic mapping project. The general steps involved in topographic mapping and 3D topographic mapping project are:<br/><br/>
+
+                    <div className="ml-3">
+                        <ol>
+                        <li>Raster to Vector conversion of 3D topographic maps are conducted using high end, up-to-date CAD software such as AutoCAD, MicroStation etc.</li>
+                        <li>Different features of the 3D topographic maps such as contour lines, boundary lines, transportation, water areas, vegetation, habitations, forest areas etc. are captured</li>
+                        <li>These features are then digitized in different layers to generate a topographic map in vector format.</li>
+                        <li>The 3D topographic mapping is done by assigning the Z-values to the contours and generating the 3D terrain model of the topography.</li>
+                        <li>With the help of 3D topographic maps AABSyS technical experts create digital terrain models (DTM), digital elevation models (DEM) and triangulated irregular networks (TINs).</li>
+                        </ol>
+                    </div>
                     </p>
-                    <ul>
-                        <li>
-                        2D and 3D Digitization
-                        </li>
-                        <li>
-                        Paper to CAD Conversion
-                        </li>
-                        <li>
-                        Raster to Vector Conversion
-                        </li>
-                    </ul>
                 </div>
             </div>
 
@@ -58,4 +57,4 @@ const DigitizationService = () => {
         </>
     )
 }
-export default DigitizationService
+export default TopographicalMapping

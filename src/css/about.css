@@ -1,0 +1,9 @@
+.about {
+    margin-top: 15vh;
+  }
+  .aboutScrollspy {
+    height: 300px;
+    position: relative;
+    overflow-y: scroll;
+  }
+  
