@@ -20,9 +20,9 @@ const NewContact = () => {
             )
         })
     }
-const formSubmit = () => {
-    alert(`Thanks ${data.fname} ${data.surname}! We will get back to you shortly.`)
-}
+    const formSubmit = () => {
+        alert(`Thanks ${data.fname} ${data.surname}! We will get back to you shortly.`)
+    }
     return(
         <>
             <div className="contact">

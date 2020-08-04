@@ -2,7 +2,6 @@ import React from 'react'
 import image1 from '../src/images/bipin3.png'
 import image2 from './images/choose.jpg'
 
-
 const About = () => {
     return(
         <>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-// import logo from './images/logo/log0_transparent_cust.png'
 
 const NewNavbar = () => {
     
@@ -20,8 +19,14 @@ const NewNavbar = () => {
                             <li className="nav-item">
                             <NavLink exact activeClassName="menu_active" className="nav-link" aria-current="page" to="/">Home</NavLink>
                             </li>
-                            <li className="nav-item">
-                            <NavLink activeClassName="menu_active" className="nav-link" to="/service">Services</NavLink>
+                            <li className="nav-item dropdown">
+                               <a className="nav-link dropdown-toggle" href="service" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Service
+                                </a>
+                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <NavLink exact activeClassName="menu_active" className="dropdown-item" to="/service/gisService">GIS Service</NavLink>
+                                    <NavLink exact activeClassName="menu_active" className="dropdown-item" to="/service/enggService">Engineering Service</NavLink>
+                                </div>
                             </li>
                             <li className="nav-item">
                             <NavLink activeClassName="menu_active" className="nav-link" to="/about">About</NavLink>

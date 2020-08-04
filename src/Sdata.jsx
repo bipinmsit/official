@@ -1,5 +1,4 @@
 import model3d from './images/gis-3d.jpg'
-import digitization from './images/sevices/digitization.jpg'
 
 const Sdata = [
     {
@@ -7,7 +6,7 @@ const Sdata = [
         title: "Digital Photogrammetry"
     },
     {
-        imgsrc: digitization,
+        imgsrc: model3d,
         title: "Digitization",
         content: "Digitization services involve converting any physical document into a digital file."
     },

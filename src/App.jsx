@@ -1,6 +1,6 @@
 import React from 'react'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
+import "../node_modules/bootstrap/dist/js/bootstrap.min.js"
 import Home from './Home'
 import About from './About'
 import Service from './Service'
@@ -9,9 +9,9 @@ import Navbar from './Navbar'
 import {Switch, Route, Redirect} from 'react-router-dom'
 import Footer from './Footer'
 import ImportantLink from './ImportantLink'
-import ServiceMenu from './ServiceMenu'
 import Gallary from './Gallary'
-
+import GisService from './GisService'
+import EnggService from './EnggService'
 
 const App = () => {
     return(
@@ -24,7 +24,8 @@ const App = () => {
             <Route exact path='/contact' component={Contact} />
             <Route exact path='/home/importantLink' component={ImportantLink} />
             <Route exact path='/home/gallary' component={Gallary} />
-            <Route exact path='/service/serviceMenu' component={ServiceMenu} />
+            <Route exact path='/service/gisService' component={GisService} />
+            <Route exact path='/service/enggService' component={EnggService} />
             <Redirect to='/' />
         </Switch>
         <Footer />

@@ -1,6 +1,12 @@
 import React from 'react'
 
 const Gallary = () => {
-    return <h1>my gallary</h1>
+    return(
+        <>
+        <div className="gallary">
+
+        </div>
+        </>
+    )
 }
 export default Gallary
