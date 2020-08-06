@@ -3,9 +3,10 @@ import React from 'react'
 const Image = (props) => {
     return(
         <>
-
-            <img src={props.imgsrc} alt="gallary_image_1" className="img-fluid mx-auto d-block" />
-
+            <div className="figure">
+                <img src={props.imgsrc} alt="gallary_image_1" className="img-fluid rounded" />
+                <figcaption className="figure-caption">{props.caption}</figcaption>
+            </div>
         </>
     )
 }

@@ -10,7 +10,7 @@ import './css/carousel.css'
 const HomeCarousel = () => {
     return(
         <>
-            <div className="homeCarousel container-fluid">
+            <div className="container-fluid">
                 <div className="row">
                     <div>
                     <div id="carouselExampleCaptions" className="carousel slide carousel-fade" data-ride="carousel">

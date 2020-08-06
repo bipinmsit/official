@@ -33,9 +33,9 @@ const Footer = () => {
 
                 
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                  <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
+                  <h6 className="text-uppercase mb-4 font-weight-bold">Miscellaneous</h6>
                   <p>
-                    <a href="https://pcjericks.github.io/py-gdalogr-cookbook/" className="text-body">GDAL/OGR</a>
+                  <NavLink activeClassName="menu_active" exact to="/home/gallary" className="text-body">Gallary</NavLink>
                   </p>
 
                 </div>
@@ -53,10 +53,10 @@ const Footer = () => {
                     <a href="https://automating-gis-processes.github.io/site/" className="text-body">GIS Automation</a>
                   </p>
                   <p>
-                    <NavLink activeClassName="menu_active" exact to="/home/gallary" className="text-body">Gallary</NavLink>
+                    <NavLink activeClassName="menu_active" exact to="/home/importantLink" className="text-body">Important Links</NavLink>
                   </p>
                   <p>
-                    <NavLink activeClassName="menu_active" exact to="/home/importantLink" className="text-body">Important Links</NavLink>
+                    <NavLink activeClassName="menu_active" exact to="/service/gisService" className="text-body">GIS Services</NavLink>
                   </p>
                 </div>
 

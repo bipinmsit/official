@@ -5,7 +5,7 @@
   }
   .navbar .navbar-brand {
     color: orangered;
-    font-size: 2vw;
+    font-size: 2.1vw;
     font-weight: bold;
     font-family: 'Krona One', sans-serif;
   }
@@ -30,7 +30,7 @@
     background-color: lightskyblue;
   }
   .navbar .navbar-toggler {
-    font-size: 1vw;
+    font-size: 1.1vw;
     background-color: white;
   }
   .navbar .navbar-collapse,

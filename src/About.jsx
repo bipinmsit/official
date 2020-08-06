@@ -56,7 +56,7 @@ const About = () => {
                                         Seminar on “4G TECHNOLOGY” at ITM Gwalior.
                                         </li>
                                         <li>
-                                        Qualified GATE 2013 (96.01%) ➢ Qualified GATE 2012 (94%). ➢ Qualified BCECE Examination in 2007 & 2008.
+                                        Qualified GATE 2013 (<em>96.01%</em>) ➢ Qualified GATE 2012 (<em>94%</em>). ➢ Qualified BCECE Examination in 2007 & 2008.
                                         </li>
                                         <li>
                                         Achieved 3rd Prize in the event of “COLLAGE-MAKING” Organized by BVM College of Technology & 
