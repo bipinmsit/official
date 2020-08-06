@@ -53,10 +53,10 @@ const Footer = () => {
                     <a href="https://automating-gis-processes.github.io/site/" className="text-body">GIS Automation</a>
                   </p>
                   <p>
-                    <NavLink exact to="/home/gallary" className="text-body">Gallary</NavLink>
+                    <NavLink activeClassName="menu_active" exact to="/home/gallary" className="text-body">Gallary</NavLink>
                   </p>
                   <p>
-                    <NavLink exact to="/home/importantLink" className="text-body">Important Links</NavLink>
+                    <NavLink activeClassName="menu_active" exact to="/home/importantLink" className="text-body">Important Links</NavLink>
                   </p>
                 </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
 
                 
                 <div className="col-md-7 col-lg-8">        
-                  <p className="text-center text-md-left">Copyright <span> ©️ </span> bipinmsit. All Right Reserved</p>
+                  <p className="text-center text-md-left">Copyright <span role="img" aria-label="copyright"> ©️ </span> bipinmsit. All Right Reserved</p>
                 </div>
                 
 

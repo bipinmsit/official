@@ -4,13 +4,12 @@ import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
 const IndoorMapping = () => {
-    console.log(NavLink)
     return(
         <>
         <div className="gisService">
         <div className="container-fluid">
             <div className="row">
-                <div className="col-3">
+                <div className="col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-4">
                     <div className="sidenav">
                         <NavLink exact to="/service/gisService"><h4>GIS Services</h4></NavLink>
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/digitalPhotogrammetry">Digital Photogrammetry</NavLink>
@@ -26,11 +25,10 @@ const IndoorMapping = () => {
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/survey">Survey</NavLink>
                     </div>
                 </div>
-                <div className="col-9">
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                 <figure className="figure">
                     <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
-                    <div className="service">Indoor Mapping</div>
-                    <figcaption className="figure-caption"></figcaption>
+                    <figcaption className="figure-caption">Indoor Mapping</figcaption>
                 </figure>
                 <div className="text-justify">
                     

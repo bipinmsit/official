@@ -4,13 +4,12 @@ import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
 const LidarDataProcessing = () => {
-    console.log(NavLink)
     return(
         <>
         <div className="gisService">
         <div className="container-fluid">
             <div className="row">
-                <div className="col-3">
+                <div className="col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-4">
                     <div className="sidenav">
                         <NavLink exact to="/service/gisService"><h4>GIS Services</h4></NavLink>
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/digitalPhotogrammetry">Digital Photogrammetry</NavLink>
@@ -26,11 +25,10 @@ const LidarDataProcessing = () => {
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/survey">Survey</NavLink>
                     </div>
                 </div>
-                <div className="col-9">
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                 <figure className="figure">
                     <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
-                    <div className="service">LiDAR Data Processing</div>
-                    <figcaption className="figure-caption"></figcaption>
+                    <figcaption className="figure-caption">LiDAR Data Processing</figcaption>
                 </figure>
                 <div className="text-justify">
                     <p>
@@ -39,6 +37,7 @@ const LidarDataProcessing = () => {
                         bipinmsit provides a wide range of LiDAR data processing services that helps in creating Digital Elevation Models (DEM), Digital Terrain Models (DTM) and Triangulated Inverse Networks (TIN) to provide highly accurate detail of the Earth’s surface. bipinmsit LiDAR data processing services have helped global industries in taking informed decisions about their business. LiDAR data processing services enable the electrical utility industry with the efficient planning and maintenance of electric networks. LiDAR classification also gives a supporting hand to the agricultural sector, by watershed delineation and crop assessment mapping using LiDAR point cloud data. This way, LiDAR classification and LiDAR data processing assists many industrial sectors in planning and making informed decisions.<br/><br/>
 
                         Typical LiDAR data processing services by bipinmsit include:<br/>
+                        </p>
 
                         <ul className="ml-3">
                             <li>LiDAR data processing of electrical utilities</li>
@@ -57,7 +56,7 @@ const LidarDataProcessing = () => {
                             <li>Vectorisation and feature extraction</li>
                             <li>Image overlay and point cloud colourisation</li>
                         </ul>
-                    </p>
+
                 </div>
             </div>
 

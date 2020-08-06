@@ -4,13 +4,12 @@ import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
 const GisDataCapture = () => {
-    console.log(NavLink)
     return(
         <>
         <div className="gisService">
         <div className="container-fluid">
             <div className="row">
-                <div className="col-3">
+                <div className="col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-4">
                     <div className="sidenav">
                         <NavLink exact to="/service/gisService"><h4>GIS Services</h4></NavLink>
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/digitalPhotogrammetry">Digital Photogrammetry</NavLink>
@@ -26,15 +25,15 @@ const GisDataCapture = () => {
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/survey">Survey</NavLink>
                     </div>
                 </div>
-                <div className="col-9">
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                 <figure className="figure">
                     <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
-                    <div className="service">GIS Data Capture </div>
-                    <figcaption className="figure-caption"></figcaption>
+                    <figcaption className="figure-caption">GIS Data Capture</figcaption>
                 </figure>
                 <div className="text-justify">
                     <p>
                         GIS data capture is a technique in which the information on various map attributes, facilities, assets, and organizational data are digitized and organized on a target GIS system in appropriate layers.<br/><br/>
+                        </p>
 
                         <h5>GIS Data capture can be divided into:</h5>
                         <div>
@@ -66,7 +65,7 @@ const GisDataCapture = () => {
                             <li>Creation of Utility infrastructure GIS data capture for water lines, road network, pavements, sewerage network, and other related features.</li>
                             <li>Generation of Environmental and geological GIS Data capture is done from geological maps, weather maps, mining and mineral exploration maps, etc.</li>
                         </ul>
-                    </p>
+
                 </div>
             </div>
 

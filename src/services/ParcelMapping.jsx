@@ -4,13 +4,12 @@ import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
 const ParcelMapping = () => {
-    console.log(NavLink)
     return(
         <>
         <div className="gisService">
         <div className="container-fluid">
             <div className="row">
-                <div className="col-3">
+                <div className="col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-4">
                     <div className="sidenav">
                         <NavLink exact to="/service/gisService"><h4>GIS Services</h4></NavLink>
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/digitalPhotogrammetry">Digital Photogrammetry</NavLink>
@@ -26,11 +25,10 @@ const ParcelMapping = () => {
                         <NavLink exact activeClassName="menu_active" to="/service/gisService/survey">Survey</NavLink>
                     </div>
                 </div>
-                <div className="col-9">
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                 <figure className="figure">
                     <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
-                    <div className="service">Parcel Mapping</div>
-                    <figcaption className="figure-caption"></figcaption>
+                    <figcaption className="figure-caption">Parcel Mapping</figcaption>
                 </figure>
                 <div className="text-justify">
                     <p>
@@ -39,6 +37,7 @@ const ParcelMapping = () => {
                         Use of parcel mapping services has increased over time and it has been observed that the time required to process and fulfil requests for land registry information has dropped by almost 80% in various countries. The use of parcel mapping services has consequently led to substantial improvements in handling the enormous requests generated over a period. Subsequently there is a huge reduction of overhead costs, and maintaining the data in a secured environment. Parcel mapping is also used by cartographic officials, rescue operations during floods and natural disasters for identifying property owners and retrieving crucial data. Parcel maps are also the base for any such GIS Maps.<br/><br/>
 
                         bipinmsit can replace the cumbersome process of maintaining data on paper maps with digital parcel maps using parcel mapping for:<br/><br/>
+                    </p>
                         <div className="ml-3">
                             <li>Municipal & other Urban Bodies</li>
                             <li>Government Departments</li>
@@ -49,7 +48,7 @@ const ParcelMapping = () => {
                             <li>Surveyors</li>
                             <li>Developers</li>
                         </div>
-                    </p>
+
                 </div>
             </div>
 

@@ -8,8 +8,8 @@ const NewNavbar = () => {
         <>
             <div className="container">
                 <div className="row">
-                    <div className="col-sm col-md col-lg col-xl">
-                        <nav className="navbar navbar-expand-lg navbar-light fixed-top mx-3">
+                    <div className="col-xs-4 col-sm-4 col-md-6 col-lg col-xl">
+                        <nav className="navbar navbar-expand-md navbar-light fixed-top mx-3">
                         <NavLink className="navbar-brand" to="/">bipinmsit</NavLink>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
