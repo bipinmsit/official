@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5f3c11edc621a5ab2107a841753cda4",
+    "revision": "aaf894ab9e9cf3f738887687a7a0d00e",
     "url": "/official/index.html"
   },
   {
-    "revision": "6f699a9175ab061d3b71",
-    "url": "/official/static/css/2.9a571e1a.chunk.css"
+    "revision": "aee0a335b63e1ddde043",
+    "url": "/official/static/css/2.6d6924ba.chunk.css"
   },
   {
-    "revision": "dc259ec2cd296d7d316b",
-    "url": "/official/static/css/main.2e099f3e.chunk.css"
+    "revision": "7e0f25bfd1130b2cb324",
+    "url": "/official/static/css/main.4c66b01b.chunk.css"
   },
   {
-    "revision": "6f699a9175ab061d3b71",
-    "url": "/official/static/js/2.deda1b60.chunk.js"
+    "revision": "aee0a335b63e1ddde043",
+    "url": "/official/static/js/2.c3ab8d31.chunk.js"
   },
   {
     "revision": "7262f9d2c1a7c941a84f9018e39ff673",
-    "url": "/official/static/js/2.deda1b60.chunk.js.LICENSE.txt"
+    "url": "/official/static/js/2.c3ab8d31.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc259ec2cd296d7d316b",
-    "url": "/official/static/js/main.aef0f93c.chunk.js"
+    "revision": "7e0f25bfd1130b2cb324",
+    "url": "/official/static/js/main.4e911d0a.chunk.js"
   },
   {
     "revision": "5c52ca3d2eae01cd681a",
@@ -32,8 +32,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/official/static/media/bipin1.a08c850b.jpg"
   },
   {
+    "revision": "fe37182dc3d6328e241da154e9194e75",
+    "url": "/official/static/media/bipin11.fe37182d.jpg"
+  },
+  {
+    "revision": "4d15914bcefbbc2e9edddb4f4f723870",
+    "url": "/official/static/media/bipin2.4d15914b.jpg"
+  },
+  {
     "revision": "f8c0b5a861b1e38e0da563d495b6248f",
     "url": "/official/static/media/bipin3.f8c0b5a8.png"
+  },
+  {
+    "revision": "ee5d131ca3709604c2bd5e02e2e3c4f2",
+    "url": "/official/static/media/bipin4.ee5d131c.jpg"
+  },
+  {
+    "revision": "1a645c71bd6da5fd5e49041cb1dd7dda",
+    "url": "/official/static/media/bipin5.1a645c71.jpg"
+  },
+  {
+    "revision": "0cda83ecb4b3ec233a62b5fe79a0132b",
+    "url": "/official/static/media/bipin6.0cda83ec.jpg"
+  },
+  {
+    "revision": "8e1c79cc5bd956ed8ccbf316ecf5ce3d",
+    "url": "/official/static/media/bipin7.8e1c79cc.jpg"
+  },
+  {
+    "revision": "af87503b5b13d689e04d9e2cfe329c57",
+    "url": "/official/static/media/bipin8.af87503b.jpg"
   },
   {
     "revision": "d325a9ada3321b6814c2f23fa772e7ba",
