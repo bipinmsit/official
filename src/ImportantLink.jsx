@@ -8,7 +8,7 @@ const ImportantLink = () => {
                     <div className="col-lg-8">
                     <h1 className="mb-3"> Important Links </h1>
                         <div>
-                            <p className="h6 mb-5" style={{color:"red"}}><span className="h5" style={{color:"blue"}}><u>Useful Articles</u> :<span style={{color:"orange"}}> GIS   </span></span> Must read & upgrade your knowledge</p>
+                            <p className="h6 mb-3" style={{color:"red"}}><span className="h5" style={{color:"blue"}}><u>Useful Articles</u> :<span style={{color:"orange"}}> GIS   </span></span> Must read & upgrade your knowledge</p>
                             <ol>
                                 <li>
                                     <a href="https://monde-geospatial.com/">
@@ -18,7 +18,7 @@ const ImportantLink = () => {
                             </ol>
                         </div>
                         <div>
-                            <p className="h6 mb-5" style={{color:"red"}}><span className="h5" style={{color:"blue"}}><u>My Favorite Books</u> :<span style={{color:"orange"}}> Stock Market   </span></span> Click on the book link to BUY the book</p>
+                            <p className="h6 mb-3" style={{color:"red"}}><span className="h5" style={{color:"blue"}}><u>My Favorite Books</u> :<span style={{color:"orange"}}> Stock Market   </span></span> Click on the book link to BUY the book</p>
                             <ol>
                                 <li>
                                     <a href="https://amzn.to/2GDgdUY">

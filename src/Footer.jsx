@@ -47,16 +47,16 @@ const Footer = () => {
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                   <h6 className="text-uppercase mb-4 font-weight-bold">Useful Info</h6>
                   <p>
-                    <a href="https://pcjericks.github.io/py-gdalogr-cookbook/" className="text-body">GDAL/OGR</a>
-                  </p>
-                  <p>
-                    <a href="https://automating-gis-processes.github.io/site/" className="text-body">GIS Automation</a>
+                    <NavLink activeClassName="menu_active" exact to="/home/service" className="text-body">Services</NavLink>
                   </p>
                   <p>
                     <NavLink activeClassName="menu_active" exact to="/home/importantLink" className="text-body">Important Links</NavLink>
                   </p>
                   <p>
-                    <NavLink activeClassName="menu_active" exact to="/service/gisService" className="text-body">GIS Services</NavLink>
+                    <a href="https://automating-gis-processes.github.io/site/" className="text-body">GIS Automation</a>
+                  </p>
+                  <p>
+                    <a href="https://pcjericks.github.io/py-gdalogr-cookbook/" className="text-body">GDAL/OGR</a>
                   </p>
                 </div>
 

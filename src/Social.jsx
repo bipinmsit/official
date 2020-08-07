@@ -1,9 +1,5 @@
 import React from 'react'
-import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import YouTubeIcon from '@material-ui/icons/YouTube';
+import '../node_modules/font-awesome/css/font-awesome.min.css'
 
 
 const Social = () => {
@@ -13,28 +9,28 @@ const Social = () => {
             <div className="row">
                 <div className="col-sm-5 mx-auto p-1">
                 <li className="list-inline-item">
-                <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="text-body mx-1">
-                    <YouTubeIcon id="youtube" />
+                <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className=" mx-1">
+                <i className="fa fa-youtube-play fa-5x" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li className="list-inline-item">
-                <a href="https://www.facebook.com/bipinmsit" className="text-body mx-1">
-                    <FacebookIcon className="social_icon" />
+                <a href="https://www.facebook.com/bipinmsit" className=" mx-1">
+                    <i className="fa fa-facebook-official fa-5x" aria-hidden="true"></i>
                 </a>
                 </li>
                 <li className="list-inline-item">
-                <a href="https://twitter.com/bipinmsit?s=03" className="text-body mx-1">
-                    <TwitterIcon className="social_icon" />
+                <a href="https://twitter.com/bipinmsit?s=03" className=" mx-1">
+                    <i className="fa fa-twitter fa-5x" aria-hidden="true"></i>
                 </a>
                 </li>
                 <li className="list-inline-item">
-                <a href="https://www.instagram.com/bipinmsit/?hl=en" className="text-body mx-1">
-                    <InstagramIcon id="instagram" />
+                <a href="https://www.linkedin.com/in/bipin-kumar-79492b19" className=" mx-1">
+                    <i className="fa fa-linkedin fa-5x" aria-hidden="true"></i>
                 </a>
                 </li>
                 <li className="list-inline-item">
-                <a href="https://www.linkedin.com/in/bipin-kumar-79492b19" className="text-body mx-1">
-                    <LinkedInIcon className="social_icon" />
+                <a href="https://www.instagram.com/bipinmsit/?hl=en" className=" mx-1">
+                    <i className="fa fa-instagram fa-5x" aria-hidden="true"></i>
                 </a>
             </li>
                 </div>

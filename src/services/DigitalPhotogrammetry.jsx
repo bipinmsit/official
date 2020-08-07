@@ -41,22 +41,22 @@ const DigitalPhotogrammetry = () => {
                     <h5>Typical aerial photogrammetry and digital photogrammetry services by bipinmsit include:</h5>
                     <div className="container">
                         <div className="row">
-                            <div className="col-6">
-                                <li>Aerial Triangulation</li>
+                            <div className="col-sm">
+                            <ul>
+                            <li>Aerial Triangulation</li>
                                 <li>Texturing</li>
                                 <li>DEM / DTM Generation</li>
                                 <li>Stereo Compilation</li>
                                 <li>Topographic and Planimetric Feature Extraction (2D and 3D)</li>
-                                <li>Ortho Generation and True Ortho Generation</li>
+                                <li>Ortho Generation</li>
                                 <li>Colour Balancing</li>
-                            </div>
-                            <div className="col-3">
                                 <li>Mosaicking And Tile Generation</li>
                                 <li>Contour Generation</li>
                                 <li>3D Terrain Visualization</li>
                                 <li>LIDAR Data Post Processing</li>
                                 <li>3D Texturing</li>
                                 <li>Orthophotography Services</li>
+                            </ul>
                             </div>
                         </div>
                     </div> <br />

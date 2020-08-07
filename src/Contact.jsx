@@ -26,7 +26,7 @@ const NewContact = () => {
     return(
         <>
             <div className="contact">
-            <div className="container text-center">
+            <div className="container">
                 <div className="row">
                     <div className="col-xl-6 mx-auto mb-5 offset-xl-2 mx-auto">
                         <img src={contact} className="w-100 h-100" alt="contact-us" />

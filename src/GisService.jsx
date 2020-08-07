@@ -11,18 +11,18 @@ const GisService = () => {
             <div className="row">
                 <div className="col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-4">
                     <div className="sidenav">
-                        <NavLink exact to="/service/gisService"><h4>GIS Services</h4></NavLink>
-                        <NavLink exact to="/service/gisService/digitalPhotogrammetry">Digital Photogrammetry</NavLink>
-                        <NavLink exact to="/service/gisService/digitization">Digitization</NavLink>
-                        <NavLink exact to="/service/gisService/remoteSensing">Remote Sensing</NavLink>
-                        <NavLink exact to="/service/gisService/indoorMapping">Indoor Mapping</NavLink>
-                        <NavLink exact to="/service/gisService/cadestralMapping">Cadestral Mapping</NavLink>
-                        <NavLink exact to="/service/gisService/topographicalMapping">Topographical Mapping</NavLink>
-                        <NavLink exact to="/service/gisService/parcelMapping">Parcel Mapping</NavLink>
-                        <NavLink exact to="/service/gisService/gisDataCapture">GIS Data Capture</NavLink>
-                        <NavLink exact to="/service/gisService/lidarDataProcessing">LiDAR Data Processing</NavLink>
-                        <NavLink exact to="/service/gisService/autocadDesign">AutoCAD Design</NavLink>
-                        <NavLink exact to="/service/gisService/survey">Survey</NavLink>
+                        <NavLink exact to="/home/service/gisService"><h4>GIS Services</h4></NavLink>
+                        <NavLink exact to="/home/service/gisService/digitalPhotogrammetry">Digital Photogrammetry</NavLink>
+                        <NavLink exact to="/home/service/gisService/digitization">Digitization</NavLink>
+                        <NavLink exact to="/home/service/gisService/remoteSensing">Remote Sensing</NavLink>
+                        <NavLink exact to="/home/service/gisService/indoorMapping">Indoor Mapping</NavLink>
+                        <NavLink exact to="/home/service/gisService/cadestralMapping">Cadestral Mapping</NavLink>
+                        <NavLink exact to="/home/service/gisService/topographicalMapping">Topographical Mapping</NavLink>
+                        <NavLink exact to="/home/service/gisService/parcelMapping">Parcel Mapping</NavLink>
+                        <NavLink exact to="/home/service/gisService/gisDataCapture">GIS Data Capture</NavLink>
+                        <NavLink exact to="/home/service/gisService/lidarDataProcessing">LiDAR Data Processing</NavLink>
+                        <NavLink exact to="/home/service/gisService/autocadDesign">AutoCAD Design</NavLink>
+                        <NavLink exact to="/home/service/gisService/survey">Survey</NavLink>
                     </div>
                 </div>
                 <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
@@ -44,17 +44,17 @@ const GisService = () => {
 
                         The various GIS Data Services offered by bipinmsit are: <br /> <br />
                         <div className="ml-5">
-                            <li> <NavLink exact to="/service/gisService/digitalPhotogrammetry">Digital Photogrammetry</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/digitization">Digitization</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/remoteSensing">Remote Sensing</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/indoorMapping">Indoor Mapping</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/cadestralMapping">Cadestral Mapping</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/topographicalMapping">Topographical Mapping</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/parcelMapping">Parcel Mapping</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/gisDataCapture">GIS Data Capture</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/lidarDataProcessing">LiDAR Data Processing</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/autocadDesign">AutoCAD Design</NavLink> </li>
-                            <li> <NavLink exact to="/service/gisService/survey">Survey</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/digitalPhotogrammetry">Digital Photogrammetry</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/digitization">Digitization</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/remoteSensing">Remote Sensing</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/indoorMapping">Indoor Mapping</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/cadestralMapping">Cadestral Mapping</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/topographicalMapping">Topographical Mapping</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/parcelMapping">Parcel Mapping</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/gisDataCapture">GIS Data Capture</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/lidarDataProcessing">LiDAR Data Processing</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/autocadDesign">AutoCAD Design</NavLink> </li>
+                            <li> <NavLink exact to="/home/service/gisService/survey">Survey</NavLink> </li>
                         </div>
                     </div>
                     </div>
