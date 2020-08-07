@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/official/static/css/main.4c66b01b.chunk.css",
-    "main.js": "/official/static/js/main.925f6c00.chunk.js",
-    "main.js.map": "/official/static/js/main.925f6c00.chunk.js.map",
+    "main.css": "/official/static/css/main.455a6f5f.chunk.css",
+    "main.js": "/official/static/js/main.a9594526.chunk.js",
+    "main.js.map": "/official/static/js/main.a9594526.chunk.js.map",
     "runtime-main.js": "/official/static/js/runtime-main.09c98985.js",
     "runtime-main.js.map": "/official/static/js/runtime-main.09c98985.js.map",
-    "static/css/2.6d6924ba.chunk.css": "/official/static/css/2.6d6924ba.chunk.css",
-    "static/js/2.c3ab8d31.chunk.js": "/official/static/js/2.c3ab8d31.chunk.js",
-    "static/js/2.c3ab8d31.chunk.js.map": "/official/static/js/2.c3ab8d31.chunk.js.map",
+    "static/css/2.63e99725.chunk.css": "/official/static/css/2.63e99725.chunk.css",
+    "static/js/2.5a8c7444.chunk.js": "/official/static/js/2.5a8c7444.chunk.js",
+    "static/js/2.5a8c7444.chunk.js.map": "/official/static/js/2.5a8c7444.chunk.js.map",
     "index.html": "/official/index.html",
-    "precache-manifest.e7b7e269826fee9c66cc73feaaf3458a.js": "/official/precache-manifest.e7b7e269826fee9c66cc73feaaf3458a.js",
+    "precache-manifest.cff48245d612e076176a3055581ba5cd.js": "/official/precache-manifest.cff48245d612e076176a3055581ba5cd.js",
     "service-worker.js": "/official/service-worker.js",
-    "static/css/2.6d6924ba.chunk.css.map": "/official/static/css/2.6d6924ba.chunk.css.map",
-    "static/css/main.4c66b01b.chunk.css.map": "/official/static/css/main.4c66b01b.chunk.css.map",
-    "static/js/2.c3ab8d31.chunk.js.LICENSE.txt": "/official/static/js/2.c3ab8d31.chunk.js.LICENSE.txt",
+    "static/css/2.63e99725.chunk.css.map": "/official/static/css/2.63e99725.chunk.css.map",
+    "static/css/main.455a6f5f.chunk.css.map": "/official/static/css/main.455a6f5f.chunk.css.map",
+    "static/js/2.5a8c7444.chunk.js.LICENSE.txt": "/official/static/js/2.5a8c7444.chunk.js.LICENSE.txt",
+    "static/media/ENGINEERING-SERVICES.jpg": "/official/static/media/ENGINEERING-SERVICES.bcbdb0df.jpg",
     "static/media/bipin1.jpg": "/official/static/media/bipin1.a08c850b.jpg",
     "static/media/bipin11.jpg": "/official/static/media/bipin11.fe37182d.jpg",
     "static/media/bipin2.jpg": "/official/static/media/bipin2.4d15914b.jpg",
@@ -23,19 +24,22 @@
     "static/media/bipin6.jpg": "/official/static/media/bipin6.0cda83ec.jpg",
     "static/media/bipin7.jpg": "/official/static/media/bipin7.8e1c79cc.jpg",
     "static/media/bipin8.jpg": "/official/static/media/bipin8.af87503b.jpg",
+    "static/media/blog.jpg": "/official/static/media/blog.6235a446.jpg",
     "static/media/business1.jpg": "/official/static/media/business1.d325a9ad.jpg",
     "static/media/carousel2.jpg": "/official/static/media/carousel2.79ef9df4.jpg",
     "static/media/carousel6.png": "/official/static/media/carousel6.005d2df0.png",
     "static/media/carousel8.png": "/official/static/media/carousel8.1bb11207.png",
     "static/media/choose.jpg": "/official/static/media/choose.486eb3dc.jpg",
     "static/media/contact-us.jpg": "/official/static/media/contact-us.194d1259.jpg",
-    "static/media/digitization.jpg": "/official/static/media/digitization.97de3874.jpg"
+    "static/media/digitization.jpg": "/official/static/media/digitization.97de3874.jpg",
+    "static/media/font-awesome.min.css": "/official/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/gis-3d.jpg": "/official/static/media/gis-3d.be5ebaca.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.09c98985.js",
-    "static/css/2.6d6924ba.chunk.css",
-    "static/js/2.c3ab8d31.chunk.js",
-    "static/css/main.4c66b01b.chunk.css",
-    "static/js/main.925f6c00.chunk.js"
+    "static/css/2.63e99725.chunk.css",
+    "static/js/2.5a8c7444.chunk.js",
+    "static/css/main.455a6f5f.chunk.css",
+    "static/js/main.a9594526.chunk.js"
   ]
 }
