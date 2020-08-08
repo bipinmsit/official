@@ -6,10 +6,10 @@ const NewNavbar = () => {
     
     return (
         <>
-            <div className="container">
+            <div>
                 <div className="row">
                     <div className="col-xs-4 col-sm-4 col-md-6 col-lg col-xl">
-                        <nav className="navbar navbar-expand-lg navbar-light fixed-top mx-auto">
+                        <nav className="navbar navbar-expand-lg navbar-light navbar-fixed-top">
                         <NavLink className="navbar-brand" to="/">bipinmsit</NavLink>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@ const NewNavbar = () => {
                                 </div>
                             </li>
                             <li className="nav-item">
-                            <NavLink activeClassName="menu_active" className="nav-link" to="/home/about" >About</NavLink>
+                            <NavLink activeClassName="menu_active" className="nav-link" to="/home/about">About</NavLink>
                             </li>
                             <li className="nav-item">
                             <NavLink activeClassName="menu_active" className="nav-link" to="/home/blog" >Blog</NavLink>

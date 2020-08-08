@@ -5,23 +5,29 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 .home {
-  margin-top: 5vw;
+  margin-top: 3vh;
+}
+.about {
+  margin-top: 8vh;
 }
 .contact {
-  margin-top: 15vh;
+  margin-top: 8vh;
 }
 .importantLink {
-  margin-top: 15vh;
+  margin-top: 8vh;
 }
 .enggService {
-  margin-top: 15vh;
+  margin-top: 8vh;
 }
 .gisService {
-  margin-top: 15vh;
+  margin-top: 8vh;
 }
 .blog {
-  margin-top: 15vh;
+  margin-top: 8vh;
 }
 .service {
-  margin-top: 15vh;
+  margin-top: 8vh;
+}
+.gallary {
+  margin-top: 8vh;
 }
