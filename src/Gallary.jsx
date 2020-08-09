@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Image from './Image'
 import image1 from './images/bipin11.jpg'
 import image2 from './images/bipin7.jpg'
@@ -12,6 +12,9 @@ import image8 from './images/bipin4.jpg'
 import './css/gallary.css'
 
 const Gallary = () => {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
     return(
         <>
             <div className="container gallary">

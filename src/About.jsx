@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import image1 from '../src/images/bipin3.png'
 import image2 from './images/choose.jpg'
 import './css/about.css'
 
 const About = () => {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
     return(
         <>
         <div className="about">

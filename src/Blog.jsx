@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import blog1 from './images/blog.jpg'
 
 const Blog = () => {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
     return(
         <>
 

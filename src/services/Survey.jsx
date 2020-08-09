@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import digitization from './digitization.jpg'
 import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
 const Survey = () => {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
     return(
         <>
         <div className="gisService">

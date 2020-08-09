@@ -1,7 +1,11 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import contact from './images/contact-us.jpg'
 
 const NewContact = () => {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
+
     const [data, setData] = useState({
         fname: '',
         surname: '',

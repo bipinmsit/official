@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import image1 from '../src/images/business1.jpg'
 import image2 from './images/carousel6.png'
 import HomeCarousel from './HomeCarousel'
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
     return(
         <>
         <HomeCarousel />

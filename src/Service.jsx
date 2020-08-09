@@ -1,10 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './../node_modules/animate.css/animate.css'
 import gisService from './images/gis-3d.jpg'
 import enggService from './images/ENGINEERING-SERVICES.jpg'
 import { NavLink } from 'react-router-dom'
 
 const Service = () => {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
     return(
         <>
             <div className="container service">

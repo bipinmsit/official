@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import image1 from './images/carousel2.jpg'
 import image2 from './images/carousel6.png'
 import image3 from './images/carousel8.png'
@@ -9,6 +9,9 @@ import Social from './Social';
 
 
 const HomeCarousel = () => {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
     return(
         <>
             <div >

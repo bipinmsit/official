@@ -1,8 +1,12 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
 import './css/navbar.css'
 
-const NewNavbar = () => {  
+const NewNavbar = () => { 
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
+
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
     const handleNavCollapse = () => {
         setIsNavCollapsed(!isNavCollapsed)

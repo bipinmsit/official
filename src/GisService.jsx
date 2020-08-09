@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
 import digitization from './services/digitization.jpg'
 import './css/sidenav.css'
 
 const GisService = () => {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    })
     return(
         <>
         <div className="gisService">
