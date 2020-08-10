@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7df6141f9591bb26ab7264b26f6aee7d",
+    "revision": "8de81337a4b6fb13ad641a70ac7a6175",
     "url": "/official/index.html"
   },
   {
-    "revision": "af6dc8663dda1cdff3cb",
-    "url": "/official/static/css/2.63e99725.chunk.css"
+    "revision": "8d296350c9594e7d165f",
+    "url": "/official/static/css/2.7bf5cdab.chunk.css"
   },
   {
-    "revision": "7c87eb64d1e1075cd891",
-    "url": "/official/static/css/main.ce895fa4.chunk.css"
+    "revision": "3231fee2c54e82e5b1e1",
+    "url": "/official/static/css/main.d1f190e0.chunk.css"
   },
   {
-    "revision": "af6dc8663dda1cdff3cb",
-    "url": "/official/static/js/2.c3a893c8.chunk.js"
+    "revision": "8d296350c9594e7d165f",
+    "url": "/official/static/js/2.56cd7520.chunk.js"
   },
   {
     "revision": "7262f9d2c1a7c941a84f9018e39ff673",
-    "url": "/official/static/js/2.c3a893c8.chunk.js.LICENSE.txt"
+    "url": "/official/static/js/2.56cd7520.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c87eb64d1e1075cd891",
-    "url": "/official/static/js/main.3a02857f.chunk.js"
+    "revision": "3231fee2c54e82e5b1e1",
+    "url": "/official/static/js/main.9c836d2e.chunk.js"
   },
   {
     "revision": "5c52ca3d2eae01cd681a",
@@ -54,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b87acba3542ea2b07d4d555511467ee8",
     "url": "/official/static/media/autocad_design.b87acba3.jpg"
-  },
-  {
-    "revision": "0fd57671de7d364dd9cc210688fabf1a",
-    "url": "/official/static/media/bg2.0fd57671.jpg"
   },
   {
     "revision": "a08c850b10c49f1a25f9575dca0921c5",
