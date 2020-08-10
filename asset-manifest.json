@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/official/static/css/main.b4708ce3.chunk.css",
-    "main.js": "/official/static/js/main.5b1990f8.chunk.js",
-    "main.js.map": "/official/static/js/main.5b1990f8.chunk.js.map",
+    "main.css": "/official/static/css/main.e8ab9fee.chunk.css",
+    "main.js": "/official/static/js/main.cbb585e1.chunk.js",
+    "main.js.map": "/official/static/js/main.cbb585e1.chunk.js.map",
     "runtime-main.js": "/official/static/js/runtime-main.09c98985.js",
     "runtime-main.js.map": "/official/static/js/runtime-main.09c98985.js.map",
     "static/css/2.63e99725.chunk.css": "/official/static/css/2.63e99725.chunk.css",
-    "static/js/2.ca08b151.chunk.js": "/official/static/js/2.ca08b151.chunk.js",
-    "static/js/2.ca08b151.chunk.js.map": "/official/static/js/2.ca08b151.chunk.js.map",
+    "static/js/2.84ee1173.chunk.js": "/official/static/js/2.84ee1173.chunk.js",
+    "static/js/2.84ee1173.chunk.js.map": "/official/static/js/2.84ee1173.chunk.js.map",
     "index.html": "/official/index.html",
-    "precache-manifest.afe73ea0d4ad59b21f02009cf31acf4d.js": "/official/precache-manifest.afe73ea0d4ad59b21f02009cf31acf4d.js",
+    "precache-manifest.e5a3483886836731d44133c12f79120f.js": "/official/precache-manifest.e5a3483886836731d44133c12f79120f.js",
     "service-worker.js": "/official/service-worker.js",
     "static/css/2.63e99725.chunk.css.map": "/official/static/css/2.63e99725.chunk.css.map",
-    "static/css/main.b4708ce3.chunk.css.map": "/official/static/css/main.b4708ce3.chunk.css.map",
-    "static/js/2.ca08b151.chunk.js.LICENSE.txt": "/official/static/js/2.ca08b151.chunk.js.LICENSE.txt",
+    "static/css/main.e8ab9fee.chunk.css.map": "/official/static/css/main.e8ab9fee.chunk.css.map",
+    "static/js/2.84ee1173.chunk.js.LICENSE.txt": "/official/static/js/2.84ee1173.chunk.js.LICENSE.txt",
     "static/media/ENGINEERING-SERVICES.jpg": "/official/static/media/ENGINEERING-SERVICES.bcbdb0df.jpg",
+    "static/media/bg2.jpg": "/official/static/media/bg2.0fd57671.jpg",
     "static/media/bipin1.jpg": "/official/static/media/bipin1.a08c850b.jpg",
     "static/media/bipin11.jpg": "/official/static/media/bipin11.fe37182d.jpg",
     "static/media/bipin2.jpg": "/official/static/media/bipin2.4d15914b.jpg",
@@ -38,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.09c98985.js",
     "static/css/2.63e99725.chunk.css",
-    "static/js/2.ca08b151.chunk.js",
-    "static/css/main.b4708ce3.chunk.css",
-    "static/js/main.5b1990f8.chunk.js"
+    "static/js/2.84ee1173.chunk.js",
+    "static/css/main.e8ab9fee.chunk.css",
+    "static/js/main.cbb585e1.chunk.js"
   ]
 }
