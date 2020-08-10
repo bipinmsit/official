@@ -1,7 +1,9 @@
 import React, {useEffect} from 'react'
 import image1 from '../src/images/business1.jpg'
 import image2 from './images/carousel6.png'
+import image3 from './images/bg2.jpg'
 import HomeCarousel from './HomeCarousel'
+import './css/home.css'
 
 const Home = () => {
     useEffect(() => {
@@ -12,6 +14,17 @@ const Home = () => {
         <HomeCarousel />
         <div className="home">
             <div className="container">
+
+            <div className="row container-fluid">
+                <div className="col-sm">
+                    <div className="home-caption text-center">
+                        <h3>
+                            "A Truly Indian Company with 25 Years of Passionately Working Towards Making India Smart & Digital by Constantly Upgrading Cutting Edge Location Technologies with Latest Innovations Across the Globe"
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
             <div className="row p-3">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
                     <div className="d-flex justify-content-start align-items-start flex-column">
@@ -55,6 +68,17 @@ const Home = () => {
 
                 </div>
             </div>
+
+            <div className="row">
+                <div className="col-sm">
+                    <div className="home-caption text-center">
+                        <h3>
+                            "A Truly Indian Company with 25 Years of Passionately Working Towards Making India Smart & Digital by Constantly Upgrading Cutting Edge Location Technologies with Latest Innovations Across the Globe"
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
             </div>
         </div>
         </>

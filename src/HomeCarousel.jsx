@@ -39,7 +39,7 @@ const HomeCarousel = () => {
                             <img src={image2} className="d-block w-100" alt="carousel_images" />
                             <div className="carousel-caption" >
                                 <p className="heading1">Technology Changes The World, <br /> Let Us Change Yours! </p>
-                                <p className="heading2 animate__animated animate__fadeInRight animate__slow animate__infinite" style={{color:"red"}}>Learn Everyday New Technology & Track Your Growth</p>
+                                <p className="heading2 animate__animated animate__fadeInRight animate__slow animate__infinite" style={{color:"red", fontWeight:"bold"}}>Learn Everyday New Technology & Track Your Growth</p>
                                 <div className="align-bottom">
                                     <Social />
                                     <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="btn btn-danger animate__animated animate__bounce animate__infinite"> <SubscriptionsIcon /> </a>
@@ -50,7 +50,7 @@ const HomeCarousel = () => {
                             <img src={image3} className="d-block w-100" alt="carousel_images" />
                             <div className="carousel-caption">
                                 <p className="heading1" style={{color:"black"}}>Digitize Your Geo spatial Assets and <br /> Maximize Productivity </p>
-                                <p style={{color:"red"}} className="heading2 animate__animated animate__lightSpeedInRight animate__slow animate__infinite">Welcome to Smart GIS Data Management & Analytics </p>
+                                <p style={{color:"red", fontWeight:"bold"}} className="heading2 animate__animated animate__lightSpeedInRight animate__slow animate__infinite">Welcome to Smart GIS Data Management & Analytics </p>
                                 <div className="align-bottom">
                                     <Social className="text-body" />
                                     <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="btn btn-danger animate__animated animate__bounce animate__infinite"> <SubscriptionsIcon /> </a>
