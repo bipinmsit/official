@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import digitization from './digitization.jpg'
+import autocadDesign from '../services/images/autocad_design.jpg'
 import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
@@ -30,7 +30,7 @@ const AutocadDesign = () => {
                 </div>
                 <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                 <figure className="figure">
-                    <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
+                    <img src={autocadDesign} className="figure-img img-fluid rounded" alt="digitization" />
                     <figcaption className="figure-caption">AutoCAD Design</figcaption>
                 </figure>
                 <div className="text-justify">

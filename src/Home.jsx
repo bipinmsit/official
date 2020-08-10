@@ -4,6 +4,7 @@ import image2 from './images/carousel6.png'
 import image3 from './images/bg2.jpg'
 import HomeCarousel from './HomeCarousel'
 import './css/home.css'
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
     useEffect(() => {
@@ -12,19 +13,19 @@ const Home = () => {
     return(
         <>
         <HomeCarousel />
-        <div className="home">
-            <div className="container">
-
-            <div className="row container-fluid">
+        <div>
+        <div className="row">
                 <div className="col-sm">
-                    <div className="home-caption text-center">
-                        <h3>
-                            "A Truly Indian Company with 25 Years of Passionately Working Towards Making India Smart & Digital by Constantly Upgrading Cutting Edge Location Technologies with Latest Innovations Across the Globe"
-                        </h3>
+                    <div className="home-caption1 text-center">
+                        <h4 className="animate__animated animate__pulse animate__infinite">
+                            "A Truly Indian GIS Platform, Passionately Working Towards Making India Smart & Digital by Constantly Upgrading Cutting Edge Location Technologies with Latest Innovations Across the Globe"
+                        </h4>
                     </div>
                 </div>
             </div>
-
+        </div>
+        <div className="home">
+            <div className="container">
             <div className="row p-3">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
                     <div className="d-flex justify-content-start align-items-start flex-column">
@@ -68,17 +69,18 @@ const Home = () => {
 
                 </div>
             </div>
-
-            <div className="row">
+            </div>
+        </div>
+        <div>
+        <div className="row">
                 <div className="col-sm">
-                    <div className="home-caption text-center">
-                        <h3>
-                            "A Truly Indian Company with 25 Years of Passionately Working Towards Making India Smart & Digital by Constantly Upgrading Cutting Edge Location Technologies with Latest Innovations Across the Globe"
-                        </h3>
+                    <div className="home-caption2 text-center">
+                        <h4>
+                            Creating maps has been the core area of <strong>bipinmsit</strong>, and the ability of maps to make our lives better is felt more strongly as we leap frog into the evolving digital space, focused on building a smarter and better future.
+                        </h4>
+                        <NavLink exact to="/home/service"><button type="button" className="btn btn-outline-primary animate__animated animate__slideInLeft animate__infinite">Know more>></button></NavLink>
                     </div>
                 </div>
-            </div>
-
             </div>
         </div>
         </>

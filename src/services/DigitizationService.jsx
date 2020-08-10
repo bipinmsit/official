@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import digitization from './digitization.jpg'
+import digitization from '../services/images/gis-digitization-bgt-1.jpg'
 import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 

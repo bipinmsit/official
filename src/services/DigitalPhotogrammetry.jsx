@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import digitization from './digitization.jpg'
+import digitalPhotogrammetry from '../services/images/Digital-Photogrammetry.jpg'
 import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
@@ -30,8 +30,8 @@ const DigitalPhotogrammetry = () => {
                 </div>
                 <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                 <figure className="figure">
-                    <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
-                    <figcaption className="figure-caption">Digital Photogrammetry</figcaption>
+                    <img src={digitalPhotogrammetry} className="figure-img img-fluid rounded" alt="digitization" />
+                    <figcaption className="figure-caption" style={{color:"black"}}>Digital Photogrammetry</figcaption>
                 </figure>
                 <div className="text-justify">
                     <p>

@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import digitization from './digitization.jpg'
+import lidarDataProcessing from '../services/images/LiDAR-DATA-Ex.png'
 import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
@@ -30,7 +30,7 @@ const LidarDataProcessing = () => {
                 </div>
                 <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                 <figure className="figure">
-                    <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
+                    <img src={lidarDataProcessing} className="figure-img img-fluid rounded" alt="digitization" />
                     <figcaption className="figure-caption">LiDAR Data Processing</figcaption>
                 </figure>
                 <div className="text-justify">

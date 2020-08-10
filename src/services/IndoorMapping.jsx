@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import digitization from './digitization.jpg'
+import indoorMapping from '../services/images/indoor_mapping.png'
 import {NavLink} from 'react-router-dom'
 import '../css/service.css'
 
@@ -30,8 +30,8 @@ const IndoorMapping = () => {
                 </div>
                 <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                 <figure className="figure">
-                    <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
-                    <figcaption className="figure-caption">Indoor Mapping</figcaption>
+                    <img src={indoorMapping} className="figure-img img-fluid rounded" alt="digitization" />
+                    <figcaption className="figure-caption" style={{color:"black"}}>Indoor Mapping</figcaption>
                 </figure>
                 <div className="text-justify">
                     
