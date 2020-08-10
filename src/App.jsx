@@ -24,6 +24,7 @@ import AutocadDesign from './services/AutocadDesign'
 import Survey from './services/Survey'
 import ParcelMapping from './services/ParcelMapping'
 import Service from './Service'
+import Webgis from './services/Webgis'
 
 const App = () => {
     return(
@@ -51,6 +52,7 @@ const App = () => {
             <Route exact path='/home/service/gisService/lidarDataProcessing' component={LidarDataProcessing} />
             <Route exact path='/home/service/gisService/autocadDesign' component={AutocadDesign} />
             <Route exact path='/home/service/gisService/survey' component={Survey} />
+            <Route exact path='/home/service/enggService/webgis' component={Webgis} />
             <Redirect to='/' />
         </Switch>
         <Footer />

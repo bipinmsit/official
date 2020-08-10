@@ -32,7 +32,9 @@ const Home = () => {
                         <p className="text-justify">
                         To convert a Physical World into Digital by providing Remote Sensing and Geospatial Technology Services to enhance Rationale Decision-Making process. <br /> <br />
 
-                        To expand Market reach by creating Awareness amongst students about Geospatial Technologies and make them able to See Spatial, Feel Spatial.
+                        To expand Market reach by creating Awareness amongst students about Geospatial Technologies and make them able to See Spatial, Feel Spatial.<br /> <br/>
+
+                        Making our world better through maps, location technologies & IoT
                         </p>
                     </div>
                 </div>
