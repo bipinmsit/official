@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6808057e392ecf6db0eba5b810f2682c",
+    "revision": "7df6141f9591bb26ab7264b26f6aee7d",
     "url": "/official/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/official/static/css/2.63e99725.chunk.css"
   },
   {
-    "revision": "0a9e70647afa9bd319bc",
-    "url": "/official/static/css/main.1c7d5f8a.chunk.css"
+    "revision": "7c87eb64d1e1075cd891",
+    "url": "/official/static/css/main.ce895fa4.chunk.css"
   },
   {
     "revision": "af6dc8663dda1cdff3cb",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/official/static/js/2.c3a893c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a9e70647afa9bd319bc",
-    "url": "/official/static/js/main.a6a80310.chunk.js"
+    "revision": "7c87eb64d1e1075cd891",
+    "url": "/official/static/js/main.3a02857f.chunk.js"
   },
   {
     "revision": "5c52ca3d2eae01cd681a",
@@ -128,10 +128,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/official/static/media/contact-us.194d1259.jpg"
   },
   {
-    "revision": "97de3874d5ef6d26e2f97176711e2b38",
-    "url": "/official/static/media/digitization.97de3874.jpg"
-  },
-  {
     "revision": "3d9baa8f97ea0392c217dd4dffc3b39c",
     "url": "/official/static/media/drone.3d9baa8f.png"
   },
@@ -164,8 +160,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/official/static/media/gis-digitization-bgt-1.9ec19852.jpg"
   },
   {
-    "revision": "311e8a0a23f66af4b12ff34ad87cd141",
-    "url": "/official/static/media/indoor_mapping.311e8a0a.png"
+    "revision": "df66e7fa29f97585e4b6a3f5c6c6a1ac",
+    "url": "/official/static/media/gis_services.df66e7fa.jpg"
+  },
+  {
+    "revision": "be747d1c8d1a576a3dda6695f7cce01c",
+    "url": "/official/static/media/indoor_mapping.be747d1c.png"
   },
   {
     "revision": "aa95630d3ba76e6adbc2a6d37ec68323",
