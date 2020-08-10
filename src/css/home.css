@@ -1,10 +1,12 @@
 .home-caption1 {
+    font-size: 0.8em;
      background-color: paleturquoise;
      padding: 30px;
      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(59, 153, 216, 0.7);
  }
- .home-caption2 {
+.home-caption2 {
+    font-size: .8em;
     background-color: darkgrey;
-    padding: 30px;
+    padding: 25px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(59, 153, 216, 0.7);
 }
