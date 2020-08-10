@@ -25,7 +25,7 @@ const About = () => {
                             <div id="collapseOne" className="collapse">
                                 <div>
                                     <nav id="navbar-example2" className="navbar navbar-light">
-                                    <a className="navbar-brand" href="/home">bipinmsit</a>
+                                    <a className="my-brand" href="/home">bipinmsit</a>
                                     <ul className="nav nav-pills">
                                         <li className="nav-item">
                                         <a className="nav-link" href="#fat">Achievements</a>

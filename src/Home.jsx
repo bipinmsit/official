@@ -59,7 +59,6 @@ const Home = () => {
                             Drones, or Unmanned Aerial Vehicles (UAV), are an incredible piece of technology providing a vantage platform from which to observe things. Sensors on the other hand are the equivalent of the human senses. Together, sensors mounted on drones, can collect all kinds of data. <br />
                             However data is only meaningful if converted into information. That’s the mission of bipinmsit. Now, let's see how the drones are changing the business world. <br/><br/>
                             <li>Productivity</li>
-                            <li>Productivity</li>
                             <li>Automation</li>
                             <li>Convenience</li>
                             <li>Economic Impact</li>

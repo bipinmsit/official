@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
-import digitization from './services/digitization.jpg'
+import gisService from './services/images/gis_services.jpg'
 import './css/sidenav.css'
 
 const GisService = () => {
@@ -31,7 +31,7 @@ const GisService = () => {
                 <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                 <div >
                     <figure className="figure">
-                        <img src={digitization} className="figure-img img-fluid rounded" alt="digitization" />
+                        <img src={gisService} className="figure-img img-fluid rounded" alt="digitization" />
                         <figcaption className="figure-caption">GIS Services</figcaption>
                     </figure>
                     <div className="text-justify">
