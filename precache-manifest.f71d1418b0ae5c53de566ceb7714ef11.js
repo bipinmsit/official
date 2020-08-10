@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d531f1acab18f7e7e87812d3658415e",
+    "revision": "acc4dde3c2243194ec19ce8ecc27cb04",
     "url": "/official/index.html"
   },
   {
-    "revision": "8d296350c9594e7d165f",
+    "revision": "09c17da975a03f0f47c2",
     "url": "/official/static/css/2.7bf5cdab.chunk.css"
   },
   {
-    "revision": "c3de8279375098195e41",
-    "url": "/official/static/css/main.d329e018.chunk.css"
+    "revision": "d96fd696c9eb5d022fbd",
+    "url": "/official/static/css/main.cf703021.chunk.css"
   },
   {
-    "revision": "8d296350c9594e7d165f",
-    "url": "/official/static/js/2.56cd7520.chunk.js"
+    "revision": "09c17da975a03f0f47c2",
+    "url": "/official/static/js/2.524736d1.chunk.js"
   },
   {
     "revision": "7262f9d2c1a7c941a84f9018e39ff673",
-    "url": "/official/static/js/2.56cd7520.chunk.js.LICENSE.txt"
+    "url": "/official/static/js/2.524736d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3de8279375098195e41",
-    "url": "/official/static/js/main.178bc2b9.chunk.js"
+    "revision": "d96fd696c9eb5d022fbd",
+    "url": "/official/static/js/main.d54bafe0.chunk.js"
   },
   {
     "revision": "5c52ca3d2eae01cd681a",
@@ -160,8 +160,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/official/static/media/gis_services.df66e7fa.jpg"
   },
   {
+    "revision": "bb9a0c148046ef8ba17f9264fedf3d3e",
+    "url": "/official/static/media/ijgi-07-00111-g001.bb9a0c14.png"
+  },
+  {
     "revision": "be747d1c8d1a576a3dda6695f7cce01c",
     "url": "/official/static/media/indoor_mapping.be747d1c.png"
+  },
+  {
+    "revision": "b8256373ec44daece1da186d294461db",
+    "url": "/official/static/media/machine-learning-definition.b8256373.jpeg"
   },
   {
     "revision": "aa95630d3ba76e6adbc2a6d37ec68323",
