@@ -19,7 +19,7 @@ const EnggService = () => {
                         <NavLink exact to="/home/service/enggService/webgis">WebGIS</NavLink>
                     </div>
                 </div>
-                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 mt-5">
                 <div >
                     <figure className="figure">
                         <img src={enggServices} className="figure-img img-fluid rounded" alt="digitization" />
