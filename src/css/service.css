@@ -18,7 +18,7 @@
   }
    .menu_active {
     font-weight: bold;
-    color: blue;
+
    }
    .text-justify {
      width: 100%;
@@ -28,5 +28,9 @@
   .enggService img {
     display: block;
     width: 100%;
-    height: 30vw;
+    height: 40vw;
   }
+.leaflet-container {
+  width: 100%;
+  height: 50vh;
+}
