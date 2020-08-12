@@ -17,11 +17,11 @@ const About = () => {
                             <h2> About: </h2>
                             <p>Learning every day on Technologies i.e Geospatial & Data management, Open source tools etc contributing to implement large enterprise projects, big database and enterprise wise applications including real time data transfer. <br /><br/>
                             To enhance & develop technical skills and become Master in SPATIAL INFORMATION TECHNOLOGY abbreviated as MSIT that fulfill need and aspiration along with the organization with loyalty and honesty.
-                            </p>
-                            <div>
                             <button className="show btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
                             Know more
                             </button>
+                            </p>
+                            <div>
                             <div id="collapseOne" className="collapse">
                                 <div>
                                     <nav id="navbar-example2" className="navbar navbar-light">

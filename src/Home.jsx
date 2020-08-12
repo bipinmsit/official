@@ -28,7 +28,7 @@ const Home = () => {
             <div className="row p-3">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
                     <div className="d-flex justify-content-start align-items-start flex-column">
-                        <h2> Mission: </h2>
+                        <h4> Mission: </h4>
                         <p className="text-justify">
                         To convert a Physical World into Digital by providing Remote Sensing and Geospatial Technology Services to enhance Rationale Decision-Making process. <br /> <br />
 
@@ -54,8 +54,8 @@ const Home = () => {
                 </div>
 
                 <div className="col-xs-12 col-sm-10 col-md-6 col-lg-7 col-xl-7">                    
+                    <h4> UAV Technology: </h4>
                     <div className="d-flex justify-content-end align-items-end flex-column">
-                        <h2> UAV Technology: </h2>
                         <p className="text-justify">
                             Drones, or Unmanned Aerial Vehicles (UAV), are an incredible piece of technology providing a vantage platform from which to observe things. Sensors on the other hand are the equivalent of the human senses. Together, sensors mounted on drones, can collect all kinds of data. <br />
                             However data is only meaningful if converted into information. That’s the mission of bipinmsit. Now, let's see how the drones are changing the business world. <br/><br/>
