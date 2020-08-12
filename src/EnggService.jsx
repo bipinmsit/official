@@ -26,7 +26,7 @@ const EnggService = () => {
                         <figcaption className="figure-caption">Engineering Services</figcaption>
                     </figure>
                     <div className="text-justify">
-                        Write content here
+                        We work on the forefront of <strong>GIS Automation, WebGIS & Machine Learning</strong> for making India Smart & Digital by Constantly Upgrading Cutting Edge Location Technologies with Latest Innovations.
                     </div>
                     </div>
                 </div>

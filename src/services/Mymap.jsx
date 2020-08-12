@@ -17,7 +17,8 @@ const Mymap = () => {
     return(
         <>
             <Map center={position} zoom={13} >
-            <Search position="topright" />
+            <Search position="topright"
+            inputPlaceholder="Search your places" />
                 <TileLayer
                 attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

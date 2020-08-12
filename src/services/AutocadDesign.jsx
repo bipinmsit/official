@@ -35,8 +35,14 @@ const AutocadDesign = () => {
                 </figure>
                 <div className="text-justify">
                     <p>
-                        Write the content here
+                     We incorporate geographic information system (GIS) and CAD data with an industry-specific toolset for GIS and 3D mapping.
                     </p>
+                    <h5>bipinmsit provide the following AutoCAD Drawing services: </h5>
+                    <ul>
+                        <li>2D/3D Planimetric Map</li>
+                        <li>Chainage Report</li>
+                        <li>CAD Overlay</li>
+                    </ul>
                 </div>
             </div>
 

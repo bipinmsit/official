@@ -12,6 +12,6 @@
   --animate-duration: 5s;
 }
 .carousel-inner .carousel-item .carousel-caption a{
-  margin-top: 5vh;
+  margin-top: 1.5vw;
   font-size: .5vw;
 }
