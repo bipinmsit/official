@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to right, white , bisque);
+  color: ;
 }
 .home {
   margin-top: 3vh;

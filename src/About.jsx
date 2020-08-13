@@ -25,27 +25,27 @@ const About = () => {
                             <div id="collapseOne" className="collapse">
                                 <div>
                                     <nav id="navbar-example2" className="navbar navbar-light">
-                                    <a className="my-brand" href="/home">bipinmsit</a>
+                                   <a className="my-brand" href="#myBrand">bipinmsit</a>
                                     <ul className="nav nav-pills">
                                         <li className="nav-item">
-                                        <a className="nav-link" href="#fat">Achievements</a>
+                                       <a className="nav-link" href="#achievements">Achievements</a>
                                         </li>
                                         <li className="nav-item">
-                                        <a className="nav-link" href="#mdo">Projects</a>
+                                       <a className="nav-link" href="#projects">Projects</a>
                                         </li>
                                         <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#acedemic" role="button" aria-haspopup="true" aria-expanded="false">Acedemic</a>
+                                       <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#myAcademic" role="button" aria-haspopup="true" aria-expanded="false">Acedemic</a>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#one">M.Tech</a>
+                                           <a className="dropdown-item" href="#degree1">M.Tech</a>
                                             <div role="separator" className="dropdown-divider"></div>
-                                            <a className="dropdown-item" href="#two">B.Tech</a>
+                                           <a className="dropdown-item" href="#degree2">B.Tech</a>
                     
                                         </div>
                                         </li>
                                     </ul>
                                     </nav>
                                     <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" className="aboutScrollspy">
-                                    <h4 id="fat">Certification/Achievements:</h4>
+                                    <h4 id="achievements">Certification/Achievements:</h4>
                                     <ul>
                                         <li>
                                         Excellent work performance certificate by Indian Institute of Remote Sensing, Indian Space Research Organization (ISRO), Dept. of Space, Govt. of India, Dehradun (Uttarakhand)) on Research project entitled ‘Temporal Analysis of Hydrological Parameters & Space borne Gravity Anomaly for Deciphering Groundwater Depletion Scenario in North-West India.’ 
@@ -69,7 +69,7 @@ const About = () => {
                                         Achieved 9th Rank in Board Examination of 10th (in district). 
                                         </li>
                                     </ul>
-                                    <h4 id="mdo">Projects:</h4>
+                                    <h4 id="projects">Projects:</h4>
                                     <ul>
                                         <li>
                                         Temporal Analysis of Hydrological Parameters and Space borne Gravity Anomaly for Deciphering of Groundwater Depletion scenario in North-West India. <br />
@@ -80,11 +80,11 @@ const About = () => {
                                         <u>Organization</u>: <strong> Ennore Port Limited, Ministry of Shipping, Govt. of India </strong>
                                         </li>
                                     </ul>
-                                    <h4 id="one">Master of Technology</h4>
+                                    <h4 id="degree1">Master of Technology</h4>
                                     <p>
                                         <u>Institute </u>: <strong>Devi Ahilya Vishwavidyalaya, Indore (M.P), India </strong> <em>76.48%</em>
                                     </p>
-                                    <h4 id="two">Bachelor of Engineering</h4>
+                                    <h4 id="degree2">Bachelor of Engineering</h4>
                                     <p>
                                         <u>Institute </u>: <strong>Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal (M.P), India </strong> <em>74.75%</em>
                                     </p>

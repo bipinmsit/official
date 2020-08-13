@@ -25,6 +25,7 @@ import Survey from './services/Survey'
 import ParcelMapping from './services/ParcelMapping'
 import Service from './Service'
 import Webgis from './services/Webgis'
+import Product from './Product'
 
 const App = () => {
     return(
@@ -32,6 +33,7 @@ const App = () => {
         <Navbar />
         <Switch>
             <Route exact path='/' component={Home} />
+            <Route exact path='/home/product' component={Product} />
             <Route exact path='/home/about' component={About} />
             <Route exact path='/home/blog' component={Blog} />
             <Route exact path='/home/contact' component={Contact} />

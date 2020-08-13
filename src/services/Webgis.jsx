@@ -22,7 +22,7 @@ const Webgis = () => {
                 <div className="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
                     <div className="row">
                         <div className="col-sm mb-5">
-                            <Mymap />
+                            <Mymap width={"100%"} height={"40vh"} />
                         </div>
                     </div>
                     <div className="row">

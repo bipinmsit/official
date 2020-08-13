@@ -27,6 +27,9 @@ const NewNavbar = () => {
                                 <li className="nav-item">
                                 <NavLink exact activeClassName="menu_active" className="nav-link" aria-current="page" to="/" onClick={handleNavCollapse}>Home</NavLink>
                                 </li>
+                                <li className="nav-item">
+                                <NavLink exact activeClassName="menu_active" className="nav-link" aria-current="page" to="/home/product" onClick={handleNavCollapse}>Product</NavLink>
+                                </li>
                                 <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="service" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Service
