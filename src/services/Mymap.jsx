@@ -9,6 +9,7 @@ import FullscreenControl from 'react-leaflet-fullscreen'
 import Search from 'react-leaflet-search'
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+import { OpenStreetMapProvider } from 'leaflet-geosearch';
 
 const Mymap = (props) => {
     let DefaultIcon = L.icon({
@@ -29,7 +30,7 @@ const Mymap = (props) => {
             <Map 
             center={position} 
             zoom={13} 
-            style={{width:`${props.width}`, height:`${props.height}`}} drawControl={true} >
+            style={{width:`${props.width}`, height:`${props.height}`}} >
                 <LayersControl position="topleft">
                     <BaseLayer checked name="OSM">
                         <TileLayer
@@ -37,24 +38,11 @@ const Mymap = (props) => {
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
                     </BaseLayer>
-                    <BaseLayer name="OSM Black & White">
-                        <TileLayer
-                        attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                        url="https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png"
-                        />
-                    </BaseLayer>
                     <BaseLayer name="Satellite Images">
                         <TileLayer
                         url="http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}"
                         subdomains={['mt0','mt1','mt2','mt3']} />
                     </BaseLayer>
-                    <Overlay name="Marker with popup">
-                        <Marker position={[12.942344, 77.591118]} icon={DefaultIcon}>
-                            <Popup>
-                            <strong>bipinmsit</strong> welcomes to visit <br/> WebGIS Service
-                            </Popup>
-                        </Marker>
-                    </Overlay>
                     <Overlay checked name="Layer group with circles">
                         <LayerGroup>
                         <Circle center={position} fillColor="blue" radius={200} />
@@ -69,13 +57,6 @@ const Mymap = (props) => {
                         fillColor="green"
                         radius={400} />
                         </LayerGroup>
-                    </Overlay>
-                    <Overlay name="Feature group">
-                        <FeatureGroup color="purple">
-                        <Popup>Popup in FeatureGroup</Popup>
-                        <Circle center={[12.932344, 77.571118]} radius={200} />
-                        <Rectangle bounds={rectangle} />
-                        </FeatureGroup>
                     </Overlay>
                 </LayersControl>
                 <Search position="topright"
