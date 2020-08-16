@@ -35,7 +35,7 @@ const WebGISProduct = () => {
         var MyCustomMarker = L.Icon.extend({
             options: {
                 shadowUrl: iconShadow,
-                iconSize: new L.Point(15, 25),
+                iconSize: [17, 27],
                 iconUrl: icon
             }
         });
@@ -97,12 +97,12 @@ const WebGISProduct = () => {
                         message: '<strong>Oh snap!<strong> you can\'t draw that!' // Message that will show when intersect
                     },
                     shapeOptions: {
-                        color: 'red'
+                        color: 'cyan'
                     }
                 },
                 circle: {
                     shapeOptions: {
-                        color: 'red'
+                        color: 'magenta'
                     }
                 },
                 rectangle: {
@@ -190,7 +190,7 @@ const WebGISProduct = () => {
             document.getElementById('export').setAttribute('href', 'data:' + convertedData);
             document.getElementById('export').setAttribute('download','data.geojson');
         }
-    })
+    },[])
 
     return(
         <>

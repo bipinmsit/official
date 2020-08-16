@@ -36,8 +36,9 @@
   height: 85vh;
 }
 #export {
+  display: block;
   position: absolute;
-  top:71vh;
+  top:460px;
   right:10px;
   z-index:700;
   background-color: blue;
@@ -51,9 +52,5 @@
   text-decoration:none;
 }
 #export:hover{
-  background-color: black;
-}
-.import:hover{
-  color: white;
   background-color: black;
 }
