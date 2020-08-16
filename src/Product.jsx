@@ -1,10 +1,10 @@
 import React from 'react'
-import DrawControl from './services/DrawControl'
+import WebGISProduct from './services/WebGISProduct'
 
 const Product = () => {
     return(
         <>
-            <DrawControl />
+            <WebGISProduct />
         </>
     )
 }

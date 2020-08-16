@@ -25,7 +25,8 @@ const Footer = () => {
                 
                 <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                   <h6 className="text-uppercase mb-4 font-weight-bold">Company name</h6>
-                  <p className="text-justify">Welcome to the world of bipinmsit to be updated with latest open source tools & GIS Technology.</p>
+                  <p className="text-justify">Welcome to the world of Master in Spatial Information Technology to be updated with latest open source tools & GIS Technology.</p>
+                  
                 </div>
                 
 

@@ -4,12 +4,11 @@ import '../css/service.css'
 import '../../node_modules/leaflet/dist/leaflet.css'
 import '../../node_modules/leaflet-draw/dist/leaflet.draw.css'
 import '../../node_modules/react-leaflet-fullscreen/dist/styles.css'
-import {Map, TileLayer, Popup, Marker, Circle, FeatureGroup, LayerGroup, LayersControl, Rectangle} from 'react-leaflet'
+import {Map, TileLayer, Circle, LayerGroup, LayersControl, Marker, Popup} from 'react-leaflet'
 import FullscreenControl from 'react-leaflet-fullscreen'
 import Search from 'react-leaflet-search'
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
-import { OpenStreetMapProvider } from 'leaflet-geosearch';
 
 const Mymap = (props) => {
     let DefaultIcon = L.icon({
@@ -19,10 +18,6 @@ const Mymap = (props) => {
     });
 
     const position = [12.942344, 77.581118]
-    const rectangle = [
-        [12.922344, 77.571118],
-        [12.919344, 77.581118],
-      ]
     const {BaseLayer, Overlay} = LayersControl
 
     return(
@@ -61,8 +56,12 @@ const Mymap = (props) => {
                 </LayersControl>
                 <Search position="topright"
                 inputPlaceholder="Search your places" />
-
                 <FullscreenControl position="topright" />
+                <Marker position={[12.942344, 77.591118]} icon={DefaultIcon}>
+                    <Popup>
+                        <strong>bipinmsit</strong> welcomes you to <br />visit WebGIS Service
+                    </Popup>
+                </Marker>
             </Map>
         </>
     )
