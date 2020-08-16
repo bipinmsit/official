@@ -139,16 +139,22 @@ const WebGISProduct = () => {
         }, 'Delete All Features', {position:"topright"}).addTo(map)
 
         // Import Feature
-        fileLayer(null, L, togeojson)         
+        fileLayer(null, L, togeojson)  
+        var selectedFeature = null;       
         var geoJsonOptions = {
             onEachFeature: function (feature, layer) {
-                console.log(feature.geometry.type)
+                layer.on('click', function(e){
+                    if(selectedFeature){
+                        selectedFeature.editing.disable()
+                    }
+                    selectedFeature = e.target;
+                    e.target.editing.enable();
+                }).addTo(drawnItems)
                 if (feature.geometry.type==="Point"){
                     layer.bindPopup(feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[1]);
                 }else {
                     layer.bindPopup('FeatureType: ' + feature.geometry.type);
                 }
-                
             },
          
                 style: {color:'red'},

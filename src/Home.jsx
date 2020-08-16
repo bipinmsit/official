@@ -45,8 +45,20 @@ const Home = () => {
                     </figure>
                 </div>
             </div>
+            </div>
+        </div>
 
-            <div className="row p-3">
+        <div className="row">
+            <div className="col-sm">
+                <div className="text-center home-caption2">
+                    <p> Creating maps has been the core area of <strong>bipinmsit</strong>, and the ability of maps to make our lives better is felt more strongly as we leap frog into the evolving digital space, focused on building a smarter and better future.</p>
+                    <NavLink exact to="/home/service" type="button" className="btn btn-outline-primary animate__animated animate__slideInLeft animate__infinite">Know more>></NavLink>
+                </div>
+            </div>
+        </div>
+
+        <div className="home container">
+        <div className="row p-3">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mx-auto my-auto">
                     <figure className="d-flex justify-content-center align-items-center flex-column">
                         <img src={image2} className="img-fluid rounded animated w-80" alt="home img" />
@@ -60,24 +72,14 @@ const Home = () => {
                             Drones, or Unmanned Aerial Vehicles (UAV), are an incredible piece of technology providing a vantage platform from which to observe things. Sensors on the other hand are the equivalent of the human senses. Together, sensors mounted on drones, can collect all kinds of data. <br />
                             However data is only meaningful if converted into information. That’s the mission of bipinmsit. Now, let's see how the drones are changing the business world. <br/><br/>
                         </p>
-                        <ul>
+                    </div>
+                    <ul>
                             <li>Productivity</li>
                             <li>Automation</li>
                             <li>Convenience</li>
                             <li>Economic Impact</li>
                         </ul>
-                    </div>
 
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div className="row">
-            <div className="col-sm">
-                <div className="text-center home-caption2">
-                    <p> Creating maps has been the core area of <strong>bipinmsit</strong>, and the ability of maps to make our lives better is felt more strongly as we leap frog into the evolving digital space, focused on building a smarter and better future.</p>
-                    <NavLink exact to="/home/service" type="button" className="btn btn-outline-primary animate__animated animate__slideInLeft animate__infinite">Know more>></NavLink>
                 </div>
             </div>
         </div>

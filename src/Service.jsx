@@ -11,7 +11,7 @@ const Service = () => {
     return(
         <>
             <div className="container service">
-            <h1 className="text-body my-5 animate__animated animate__shakeY animate__infinite">Start up Your New Thought Ventures With <strong>bipinmsit</strong></h1>
+            <h2 className="text-body my-5 animate__animated animate__shakeY animate__infinite">Start up Your New Thought Ventures With <strong>bipinmsit</strong></h2>
                 <div className="row">
                     <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
                         <div className="card">

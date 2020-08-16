@@ -15,7 +15,7 @@ const About = () => {
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
                         <div className="text-justify d-flex justify-content-start align-items-start flex-column">
                             <h2> About: </h2>
-                            <p>Learning every day on Technologies i.e Geospatial & Data management, Open source tools etc contributing to implement large enterprise projects, big database and enterprise wise applications including real time data transfer. <br /><br/>
+                            <p>Learning every day on Technologies i.e Geospatial & Data management, Open source tools and contributing to implement large enterprise projects, big database and enterprise wise applications including real time data transfer. <br /><br/>
                             To enhance & develop technical skills and become Master in SPATIAL INFORMATION TECHNOLOGY abbreviated as MSIT that fulfill need and aspiration along with the organization with loyalty and honesty.
                             <button className="show btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
                             Know more
@@ -102,8 +102,19 @@ const About = () => {
                     </figure>
                     </div>
             </div>
-  
-            <div className="row p-3">
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col-sm">
+                <div className="text-center about-caption1">
+                    <p> “GIS is waking up the world to the power of technology, this science of integration, and has the framework for creating a better future.”</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="about container">
+        <div className="row p-3">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-auto">
                     <figure className="figure d-flex justify-content-center align-items-center flex-column">
                         <img src={image2} className="img-fluid rounded animated w-100" alt="about img" />
@@ -137,7 +148,6 @@ const About = () => {
                     </div>
 
                 </div>
-            </div>
             </div>
         </div>
         </>

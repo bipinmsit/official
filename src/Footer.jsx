@@ -25,7 +25,8 @@ const Footer = () => {
                 
                 <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                   <h6 className="text-uppercase mb-4 font-weight-bold">Company name</h6>
-                  <p className="text-justify">Welcome to the world of Master in Spatial Information Technology to be updated with latest open source tools & GIS Technology.</p>
+                  <p className="text-justify">Welcome to the world of Master in Spatial Information Technology, to be updated with latest open source tools & GIS Technology.</p><br/>
+                  <strong style={{color:"orange"}}>"Think big, Think Beyond!"</strong>
                   
                 </div>
                 
@@ -38,6 +39,10 @@ const Footer = () => {
                   <p>
                   <NavLink activeClassName="menu_active" exact to="/home/gallary" className="text-body">Gallary</NavLink>
                   </p>
+                  <p>
+                  <NavLink activeClassName="menu_active" exact to="/home/blog" className="text-body">Blog</NavLink>
+                  </p>
+
 
                 </div>
                 
@@ -48,16 +53,13 @@ const Footer = () => {
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                   <h6 className="text-uppercase mb-4 font-weight-bold">Useful Info</h6>
                   <p>
+                    <NavLink activeClassName="menu_active" exact to="/home/product" className="text-body">Product</NavLink>
+                  </p>
+                  <p>
                     <NavLink activeClassName="menu_active" exact to="/home/service" className="text-body">Services</NavLink>
                   </p>
                   <p>
                     <NavLink activeClassName="menu_active" exact to="/home/importantLink" className="text-body">Important Links</NavLink>
-                  </p>
-                  <p>
-                    <a href="https://automating-gis-processes.github.io/site/" className="text-body">GIS Automation</a>
-                  </p>
-                  <p>
-                    <a href="https://pcjericks.github.io/py-gdalogr-cookbook/" className="text-body">GDAL/OGR</a>
                   </p>
                 </div>
 

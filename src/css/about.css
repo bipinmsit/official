@@ -9,3 +9,9 @@
     font-weight: bold;
     font-family: 'Krona One', sans-serif;
   }
+  .about-caption1 {
+    font-size: 0.9em;
+    background-image: linear-gradient(to right, orange ,white);
+     padding: 15px;
+     box-shadow: 0 0 10px 0 rgba(190, 16, 16, 0.1), 0 5px 10px 0 rgba(59, 153, 216, 0.3);
+ }
