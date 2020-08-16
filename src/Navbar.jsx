@@ -46,7 +46,7 @@ const NewNavbar = () => {
                                 <NavLink activeClassName="menu_active" className="nav-link" to="/home/blog" onClick={handleNavCollapse}>Blog</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                <NavLink activeClassName="menu_active" className="nav-link" to="/home/gallary" onClick={handleNavCollapse}>Gallary</NavLink>
+                                <NavLink activeClassName="menu_active" className="nav-link" to="/home/gallary" onClick={handleNavCollapse}>Gallery</NavLink>
                                 </li>
                                 <li className="nav-item">
                                 <NavLink activeClassName="menu_active" className="nav-link" to="/home/contact" onClick={handleNavCollapse}>Contact</NavLink>
