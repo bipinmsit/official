@@ -88,14 +88,15 @@ const Footer = () => {
                 <div className="col-md-7 col-lg-8">        
                   <p className="text-center text-md-left">Copyright <span role="img" aria-label="copyright"> ©️ </span> bipinmsit. All Right Reserved</p>
                 </div>
-                
-
-                
+                               
                 <div className="col-md-5 col-lg-4 ml-lg-0">        
                   <div className="text-center text-md-right">
                     <ul className="list-unstyled list-inline">
                     <li className="list-inline-item">
-                        <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="text-body mx-1">
+                      <div align='center'><a href='https://www.hit-counts.com/'><img src='http://www.hit-counts.com/counter.php?t=MTQ1MTAzMQ==' border='0' alt='logo services' /></a><br /></div>
+                      </li>
+                    <li className="list-inline-item">
+                        <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="text-body ml-3">
                           <YouTubeIcon id="youtube" />
                           </a>
                       </li>
