@@ -24,7 +24,7 @@ const Footer = () => {
 
                 
                 <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 className="navbar-brand mb-3 font-weight-bold">bipinmsit</h6>
+                <h6 className="navbar-brand mb-2 font-weight-bold">bipinmsit</h6>
                   <p className="text-justify">Welcome to the world of Master in Spatial Information Technology, to be updated with latest open source tools & GIS Technology.</p><br/>
                   <strong style={{color:"orange"}}>"Think big, Think Beyond!"</strong>
                   
