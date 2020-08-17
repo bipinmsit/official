@@ -17,7 +17,7 @@ const Product = () => {
                             <div className="card-body">
                                 <h5 className="card-title">WebGIS Platform</h5>
                                 <p className="card-text text-justify">
-                                WebGIS is an advanced form of Geospatial Information System available on the web platform. It will help you to perform all GIS related activity on web browser i.e digitize, download, upload, modify & measure the geospatial data.
+                                WebGIS is an advanced form of Geospatial Information System available on the web platform. It will help you to perform all GIS related activities on web browser i.e search, digitize, download, upload, modify, measure etc. of geospatial data.
                                 </p>
                                <NavLink exact to="/home/product/webgis" className="btn btn-primary">Subscribe our WebGIS Product</NavLink>
                             </div>

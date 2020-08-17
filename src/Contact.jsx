@@ -63,12 +63,11 @@ const NewContact = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <label>Lastname *</label>
+                                        <label>Lastname</label>
                                         <input id="form_lastname" type="text" 
                                         name="surname" 
                                         className="form-control" 
                                         placeholder="Please enter your lastname *" 
-                                        required="required"
                                         data-error="Lastname is required."
                                         value={data.surname}
                                         onChange={inputEvent} />
@@ -93,11 +92,12 @@ const NewContact = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <label>Phone</label>
+                                        <label>Phone *</label>
                                         <input id="form_phone" type="tel" 
                                         name="phone" 
                                         className="form-control" 
                                         placeholder="Please enter your phone"
+                                        required="required"
                                         value={data.phone}
                                         onChange={inputEvent} />
                                         <div className="help-block with-errors"></div>
@@ -105,9 +105,9 @@ const NewContact = () => {
                                 </div>
                             </div>
                             <div className="form-group">
-                                <label>Message *</label>
+                                <label>Message </label>
                                 <textarea id="form_message" 
-                                name="message" className="form-control" placeholder="Message for me *" rows="4" required="required"
+                                name="message" className="form-control" placeholder="Message for me " rows="4"
                                     data-error="Please, leave us a message."></textarea>
                                 <div className="help-block with-errors"></div>
                             </div>

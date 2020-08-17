@@ -69,8 +69,8 @@ const Home = () => {
                     <h4> UAV Technology: </h4>
                     <div className="d-flex justify-content-end align-items-end flex-column">
                         <p className="text-justify">
-                            Drones, or Unmanned Aerial Vehicles (UAV), are an incredible piece of technology providing a vantage platform from which to observe things. Sensors on the other hand are the equivalent of the human senses. Together, sensors mounted on drones, can collect all kinds of data. <br />
-                            However data is only meaningful if converted into information. That’s the mission of bipinmsit. Now, let's see how the drones are changing the business world. <br/><br/>
+                            Drones are becoming more and more popular now a days. Drones, or Unmanned Aerial Vehicles (UAV), are an incredible piece of technology providing a vantage platform from which to observe things. Sensors on the other hand are the equivalent of the human senses. Together, sensors mounted on drones, can collect all kinds of data. <br />
+                            However data is only meaningful if converted into information. That’s the mission of bipinmsit. Now, let's see how the drones are changing the business world. <br/>
                         </p>
                     </div>
                     <ul>
@@ -78,8 +78,14 @@ const Home = () => {
                             <li>Automation</li>
                             <li>Convenience</li>
                             <li>Economic Impact</li>
+                            <li>Media and Film Production</li>
                         </ul>
-
+                    <div className="d-flex justify-content-end align-items-end flex-column">
+                        <p className="text-justify">
+                            If you really interested to know more about the drone industory & its data processing, lets have a conversation
+                            <NavLink exact to="/home/contact" type="button" className="btn btn-outline-primary ml-2">Contact us</NavLink>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
