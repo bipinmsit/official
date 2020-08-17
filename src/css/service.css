@@ -33,12 +33,12 @@
 #map {
   display: inline-block;
   width: 100%;
-  height: 80vh;
+  height: 85vh;
 }
 #export {
   display: block;
   position: absolute;
-  top:460px;
+  top:500px;
   right:10px;
   z-index:700;
   background-color: blue;
