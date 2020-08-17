@@ -20,6 +20,8 @@
     "leaflet-easybutton": "^2.4.0",
     "leaflet-filelayer": "^1.2.0",
     "leaflet-geosearch": "^3.0.6",
+    "leaflet-graphicscale": "0.0.2",
+    "leaflet-measure": "^3.1.0",
     "leaflet-mouse-position": "^1.2.0",
     "leaflet-search": "^2.9.8",
     "leaflet-search-control": "^2.1.2",

@@ -2,7 +2,6 @@ import React, {useEffect} from 'react'
 import L from 'leaflet'
 import { GeoSearchControl, OpenStreetMapProvider } from 'leaflet-geosearch';
 import icon from 'leaflet/dist/images/marker-icon.png';
-// import icon2 from '..'
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import '../../node_modules/font-awesome/css/font-awesome.min.css'
 import '../../node_modules/leaflet-draw/dist/leaflet.draw.css'
@@ -12,8 +11,10 @@ import '../../node_modules/leaflet-easybutton/src/easy-button.js'
 import '../../node_modules/leaflet-mouse-position/src/L.Control.MousePosition.css'
 import '../../node_modules/leaflet-mouse-position/src/L.Control.MousePosition.js'
 import '../../node_modules/leaflet-ajax/dist/leaflet.ajax.min.js'
-import '../../node_modules/leaflet-filelayer/src/leaflet.filelayer.js'
-import '../../node_modules/togeojson/togeojson.js'
+import '../../node_modules/leaflet-measure/dist/leaflet-measure.js'
+import '../../node_modules/leaflet-measure/dist/leaflet-measure.css'
+import '../../node_modules/leaflet-graphicscale/dist/Leaflet.GraphicScale.min.css'
+import '../../node_modules/leaflet-graphicscale/dist/Leaflet.GraphicScale.min.js'
 import "../css/service.css"
 import 'leaflet-draw'
 import togeojson from 'togeojson'
@@ -53,6 +54,9 @@ const WebGISProduct = () => {
         layers: [googleSatellite],
         fullscreenControl: true
         });
+
+        // Add Scale
+        L.control.scale().addTo(map)
 
         // Mouse hover coordinate on leaflet map
         L.control.mousePosition({position:"topright"}).addTo(map);
@@ -155,8 +159,7 @@ const WebGISProduct = () => {
                 }else {
                     layer.bindPopup('FeatureType: ' + feature.geometry.type);
                 }
-            },
-         
+            },         
                 style: {color:'red'},
                 pointToLayer: function (data, latlng) {
          
@@ -185,6 +188,12 @@ const WebGISProduct = () => {
                 '.kml'
             ]
         }).addTo(map);
+        // Measurement tools
+        var measureControl = new L.Control.Measure(
+            { primaryLengthUnit: 'meters', secondaryLengthUnit: 'feet' },
+            { primaryAreaUnit: 'sqmeters', secondaryAreaUnit: 'acres' }
+            );
+        measureControl.addTo(map);
 
         // Export to GeoJSON
         document.getElementById('export').onclick = function(e) {
