@@ -188,6 +188,7 @@ const WebGISProduct = () => {
                 '.kml'
             ]
         }).addTo(map);
+        
         // Measurement tools
         var measureControl = new L.Control.Measure(
             { primaryLengthUnit: 'meters', secondaryLengthUnit: 'feet' },

@@ -14,7 +14,7 @@ import './css/footer.css'
 const Footer = () => {
     return(
         <>
-            <footer className="page-footer font-small bg-secondary text-light align-bottom mt-3 pt-1">
+            <footer className="page-footer font-small bg-secondary text-light align-bottom mt-4 pt-1">
 
             
             <div className="container text-center text-md-left">

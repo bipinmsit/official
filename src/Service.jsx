@@ -11,7 +11,7 @@ const Service = () => {
     return(
         <>
             <div className="container service">
-            <h2 className="text-body my-5 animate__animated animate__shakeY animate__infinite">Start up Your New Thought Ventures With <strong>bipinmsit</strong></h2>
+            <h2 className="text-body text-center my-5 animate__animated animate__shakeY animate__infinite">Start up Your New Thought Ventures With <strong>bipinmsit</strong></h2>
                 <div className="row">
                     <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
                         <div className="card">
@@ -30,8 +30,8 @@ const Service = () => {
                             <img className="card-img-top" src={enggService} alt="Card_image_cap" />
                             <div className="card-body">
                                 <h5 className="card-title">Engineering Service</h5>
-                                <p className="card-text">
-                                    Web GIS Development Service...
+                                <p className="card-text text-justify">
+                                We work on the forefront of GIS Automation, WebGIS & Machine Learning for making India Smart & Digital by Constantly Upgrading Cutting Edge...
                                 </p>
                                <NavLink exact to="/home/service/enggService" className="btn btn-primary">See All Engineering Service</NavLink>
                             </div>

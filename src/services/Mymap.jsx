@@ -27,18 +27,18 @@ const Mymap = (props) => {
             zoom={13} 
             style={{width:`${props.width}`, height:`${props.height}`}} >
                 <LayersControl position="topleft">
-                    <BaseLayer checked name="OSM">
+                    <BaseLayer name="OSM">
                         <TileLayer
                         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
                     </BaseLayer>
-                    <BaseLayer name="Satellite Images">
+                    <BaseLayer checked name="Satellite Images">
                         <TileLayer
                         url="http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}"
                         subdomains={['mt0','mt1','mt2','mt3']} />
                     </BaseLayer>
-                    <Overlay checked name="Layer group with circles">
+                    <Overlay name="Layer group with circles">
                         <LayerGroup>
                         <Circle center={position} fillColor="blue" radius={200} />
                         <Circle
