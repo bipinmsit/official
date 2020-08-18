@@ -61,6 +61,14 @@ const WebGISProduct = () => {
         // Mouse hover coordinate on leaflet map
         L.control.mousePosition({position:"topright"}).addTo(map);
 
+        // Measurement tools
+        var measureControl = new L.Control.Measure(
+            { position: 'topleft' },
+            { primaryLengthUnit: 'meters', secondaryLengthUnit: 'feet' },
+            { primaryAreaUnit: 'sqmeters', secondaryAreaUnit: 'acres' }
+            );
+        measureControl.addTo(map);
+
         // GeoSearch
         const provider = new OpenStreetMapProvider();
         const searchControl = new GeoSearchControl({
@@ -188,13 +196,6 @@ const WebGISProduct = () => {
                 '.kml'
             ]
         }).addTo(map);
-        
-        // Measurement tools
-        var measureControl = new L.Control.Measure(
-            { primaryLengthUnit: 'meters', secondaryLengthUnit: 'feet' },
-            { primaryAreaUnit: 'sqmeters', secondaryAreaUnit: 'acres' }
-            );
-        measureControl.addTo(map);
 
         // Export to GeoJSON
         document.getElementById('export').onclick = function(e) {
