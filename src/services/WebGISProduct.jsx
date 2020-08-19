@@ -143,6 +143,7 @@ const WebGISProduct = () => {
         
         function addPopup(layer) {
           var content = document.createElement("textarea");
+            content.placeholder="Enter Details"
             content.addEventListener("keyup", function () {
               layer.feature.properties.desc = content.value;
             });
@@ -298,7 +299,7 @@ const WebGISProduct = () => {
                 '.gpx'
             ]
         }).addTo(map);
-        // Export to GeoJSON
+        // Export to kml
         document.getElementById('export_kml').onclick = function(e) {
             // Extract GeoJson from featureGroup
             var data = drawnItems.toGeoJSON();
@@ -308,6 +309,7 @@ const WebGISProduct = () => {
             document.getElementById('export_kml').setAttribute('href', 'data:' + convertedData);
             document.getElementById('export_kml').setAttribute('download','data.kml');
         }
+        // Export to geojson
         document.getElementById('export_geojson').onclick = function(e) {
             // Extract GeoJson from featureGroup
             var data = drawnItems.toGeoJSON();
