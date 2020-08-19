@@ -19,6 +19,7 @@ import "../css/service.css"
 import 'leaflet-draw'
 import togeojson from 'togeojson'
 import fileLayer from 'leaflet-filelayer'
+import GetAppIcon from '@material-ui/icons/GetApp';
 
 const WebGISProduct = () => {
     useEffect(() => {
@@ -212,7 +213,7 @@ const WebGISProduct = () => {
     return(
         <>
             <div id='map'></div>
-            <a href='#export' id='export'>Export Feature</a>
+            <a href='#export' id='export'><GetAppIcon /></a>
         </>
     )
 }
