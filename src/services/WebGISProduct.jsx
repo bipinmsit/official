@@ -13,12 +13,11 @@ import '../../node_modules/leaflet-mouse-position/src/L.Control.MousePosition.js
 import '../../node_modules/leaflet-ajax/dist/leaflet.ajax.min.js'
 import '../../node_modules/leaflet-measure/dist/leaflet-measure.js'
 import '../../node_modules/leaflet-measure/dist/leaflet-measure.css'
-import '../../node_modules/leaflet-graphicscale/dist/Leaflet.GraphicScale.min.css'
-import '../../node_modules/leaflet-graphicscale/dist/Leaflet.GraphicScale.min.js'
 import "../css/service.css"
 import 'leaflet-draw'
 import togeojson from 'togeojson'
 import fileLayer from 'leaflet-filelayer'
+import tokml from 'tokml'
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 const WebGISProduct = () => {
@@ -113,14 +112,11 @@ const WebGISProduct = () => {
                         color: 'cyan'
                     }
                 },
-                circle: {
-                    shapeOptions: {
-                        color: 'magenta'
-                    }
-                },
+                circle: true,
                 rectangle: {
                     shapeOptions: {
-                        clickable: false
+                        clickable: false,
+                        color: 'magenta'
                     }
                 },
                 marker: {
@@ -132,17 +128,119 @@ const WebGISProduct = () => {
                 featureGroup: drawnItems, //REQUIRED!!
             }
         };
+        // Add popup for giving the description
+        map.on('draw:created', function (event) {
+            var layer = event.layer,
+              feature = layer.feature = layer.feature || {};
         
+            feature.type = feature.type || "Feature";
+            var props = feature.properties = feature.properties || {};
+            props.desc = null;
+            // props.image = null;
+            drawnItems.addLayer(layer);
+            addPopup(layer);
+        });
+        
+        function addPopup(layer) {
+          var content = document.createElement("textarea");
+            content.addEventListener("keyup", function () {
+              layer.feature.properties.desc = content.value;
+            });
+            layer.on("popupopen", function () {
+              content.value = layer.feature.properties.desc;
+              content.focus();
+            });
+            layer.bindPopup(content).openPopup();
+        }
+
+        // For creating the polygon from cicle draw
+        function createGeodesicPolygon(origin, radius, sides, rotation, projection) {
+            var latlon = origin; //leaflet equivalent
+            var angle;
+            var new_lonlat, geom_point;
+            var points = [];
+    
+            for (var i = 0; i < sides; i++) {
+                angle = (i * 360 / sides) + rotation;
+                new_lonlat = destinationVincenty(latlon, angle, radius); 
+                geom_point = L.latLng(new_lonlat.lng, new_lonlat.lat); 
+    
+                points.push(geom_point); 
+            }   
+    
+            return points; 
+        };
+        L.Util.VincentyConstants = {
+            a: 6378137,
+            b: 6356752.3142,
+            f: 1/298.257223563  
+        };  
+        function destinationVincenty(lonlat, brng, dist) { //rewritten to work with leaflet    
+            var u = L.Util;
+            var ct = u.VincentyConstants;
+            var a = ct.a, b = ct.b, f = ct.f;
+            var lon1 = lonlat.lng;
+            var lat1 = lonlat.lat;
+            var s = dist;
+            var pi = Math.PI;
+            var alpha1 = brng * pi/180 ; //converts brng degrees to radius
+            var sinAlpha1 = Math.sin(alpha1);
+            var cosAlpha1 = Math.cos(alpha1);
+            var tanU1 = (1-f) * Math.tan( lat1 * pi/180 /* converts lat1 degrees to radius */ ); 
+            var cosU1 = 1 / Math.sqrt((1 + tanU1*tanU1)), sinU1 = tanU1*cosU1;
+            var sigma1 = Math.atan2(tanU1, cosAlpha1);
+            var sinAlpha = cosU1 * sinAlpha1;
+            var cosSqAlpha = 1 - sinAlpha*sinAlpha;
+            var uSq = cosSqAlpha * (a*a - b*b) / (b*b);
+            var A = 1 + uSq/16384*(4096+uSq*(-768+uSq*(320-175*uSq)));
+            var B = uSq/1024 * (256+uSq*(-128+uSq*(74-47*uSq)));
+            var sigma = s / (b*A), sigmaP = 2*Math.PI;
+            while (Math.abs(sigma-sigmaP) > 1e-12) {
+                var cos2SigmaM = Math.cos(2*sigma1 + sigma);
+                var sinSigma = Math.sin(sigma);
+                var cosSigma = Math.cos(sigma);
+                var deltaSigma = B*sinSigma*(cos2SigmaM+B/4*(cosSigma*(-1+2*cos2SigmaM*cos2SigmaM)-
+                    B/6*cos2SigmaM*(-3+4*sinSigma*sinSigma)*(-3+4*cos2SigmaM*cos2SigmaM)));
+                sigmaP = sigma;
+                sigma = s / (b*A) + deltaSigma;
+            }
+            var tmp = sinU1*sinSigma - cosU1*cosSigma*cosAlpha1;
+            var lat2 = Math.atan2(sinU1*cosSigma + cosU1*sinSigma*cosAlpha1,
+                (1-f)*Math.sqrt(sinAlpha*sinAlpha + tmp*tmp));
+            var lambda = Math.atan2(sinSigma*sinAlpha1, cosU1*cosSigma - sinU1*sinSigma*cosAlpha1);
+            var C = f/16*cosSqAlpha*(4+f*(4-3*cosSqAlpha));
+            var lam = lambda - (1-C) * f * sinAlpha *
+                (sigma + C*sinSigma*(cos2SigmaM+C*cosSigma*(-1+2*cos2SigmaM*cos2SigmaM)));  
+            // var revAz = Math.atan2(sinAlpha, -tmp);  // final bearing
+            var lamFunc = lon1 + (lam * 180/pi); //converts lam radius to degrees
+            var lat2a = lat2 * 180/pi; //converts lat2a radius to degrees
+    
+            return L.latLng(lamFunc, lat2a);    
+        }; 
+       
         var drawControl = new L.Control.Draw(options);
         map.addControl(drawControl); 
         map.on(L.Draw.Event.CREATED, function (e) {
-            var type = e.layerType,
-                layer = e.layer;
-            if(type==='marker'){
-                layer.bindPopup("Control point")
-            }           
-            drawnItems.addLayer(layer);
-        });      
+            var type = e.layerType
+            var layer = e.layer;
+            if (type === 'circle'){                
+                layer.feature.properties["radius"] = layer.getRadius()
+                var origin = layer.getLatLng(); //center of drawn circle
+                var radius = layer.getRadius(); //radius of drawn circle
+                var projection = L.CRS.EPSG4326;
+                var polys = createGeodesicPolygon(origin, radius, 60, 0, projection); //these are the points that make up the circle
+                var polygon = []; // store the geometry
+                for (var i = 0; i < polys.length; i++) {
+                    var geometry = [polys[i].lat, polys[i].lng]; 
+                    polygon.push(geometry);
+                }
+                var cpolygon = L.polygon(polygon);
+                drawnItems.addLayer(cpolygon);
+            }else{
+                drawnItems.addLayer(layer);
+            }         
+        }); 
+
         // on click, clear all layers
         L.easyButton('fa-exclamation-triangle', function(btn, map){
             var answer = window.confirm("Do you want to delete all features ?")
@@ -159,9 +257,10 @@ const WebGISProduct = () => {
                 layer.on('click', function(e){
                     if(selectedFeature){
                         selectedFeature.editing.disable()
+                    }else{
+                        selectedFeature = e.target;
+                        e.target.editing.enable();
                     }
-                    selectedFeature = e.target;
-                    e.target.editing.enable();
                 }).addTo(drawnItems)
                 if (feature.geometry.type==="Point"){
                     layer.bindPopup(feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[1]);
@@ -194,26 +293,36 @@ const WebGISProduct = () => {
             // Restrict accepted file formats (default: .geojson, .json, .kml, and .gpx) ?
             formats: [
                 '.geojson',
-                '.kml'
+                '.kml',
+                '.json',
+                '.gpx'
             ]
         }).addTo(map);
-
         // Export to GeoJSON
-        document.getElementById('export').onclick = function(e) {
+        document.getElementById('export_kml').onclick = function(e) {
             // Extract GeoJson from featureGroup
             var data = drawnItems.toGeoJSON();
-            // Stringify the GeoJson
+            var kml = tokml(data)
+            var convertedData = 'application/xml;charset=utf-8,' + encodeURIComponent(kml);
+            // Create export_kml
+            document.getElementById('export_kml').setAttribute('href', 'data:' + convertedData);
+            document.getElementById('export_kml').setAttribute('download','data.kml');
+        }
+        document.getElementById('export_geojson').onclick = function(e) {
+            // Extract GeoJson from featureGroup
+            var data = drawnItems.toGeoJSON();
             var convertedData = 'text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(data));
-            // Create export
-            document.getElementById('export').setAttribute('href', 'data:' + convertedData);
-            document.getElementById('export').setAttribute('download','data.geojson');
+            // Create export_geojson
+            document.getElementById('export_geojson').setAttribute('href', 'data:' + convertedData);
+            document.getElementById('export_geojson').setAttribute('download','data.geojson');
         }
     },[])
 
     return(
         <>
             <div id='map'></div>
-            <a href='#export' id='export'><GetAppIcon /></a>
+            <a download target="_blank" href='#export' id='export_kml'><GetAppIcon/>kml</a>
+            <a download target="_blank" href='#export_geojson' id='export_geojson'><GetAppIcon/>geojson</a>
         </>
     )
 }
