@@ -25,7 +25,7 @@ const HomeCarousel = () => {
                         </ol>
                         <div className="carousel-inner ">
                             <div className="carousel-item active" data-interval="10000">
-                            <img src={image1} className="d-block w-100" alt="carousel_images" />
+                            <img src={image1} className="d-block w-100" alt="Geo-Spatial Technology" />
                             <div className="carousel-caption ">
                                 <p className="heading1">Welcome to the World of <br /> <span style={{color:"orange"}}>Spatial Information Technology</span></p>
                                 <p className="heading2 animate__animated animate__bounceIn animate__infinite">A Complete & Latest Platform for <br/> <span style={{color:"red"}}>GIS DEVELOPER</span></p>
@@ -36,7 +36,7 @@ const HomeCarousel = () => {
                             </div>
                             </div>
                             <div className="carousel-item" data-interval="15000">
-                            <img src={image2} className="d-block w-100" alt="carousel_images" />
+                            <img src={image2} className="d-block w-100" alt="Geo-Spatial Technology" />
                             <div className="carousel-caption" >
                                 <p className="heading1">Technology Changes The World, <br /> Let Us Change Yours! </p>
                                 <p className="heading2 animate__animated animate__fadeInRight animate__slow animate__infinite" style={{color:"red", fontWeight:"bold"}}>Learn Everyday New Technology & Track Your Growth</p>
@@ -47,7 +47,7 @@ const HomeCarousel = () => {
                             </div>
                             </div>
                             <div className="carousel-item" data-interval="17000">
-                            <img src={image3} className="d-block w-100" alt="carousel_images" />
+                            <img src={image3} className="d-block w-100" alt="Geo-Spatial Technology" />
                             <div className="carousel-caption">
                                 <p className="heading1" style={{color:"black"}}>Digitize Your Geo spatial Assets and <br /> Maximize Productivity </p>
                                 <p style={{color:"red", fontWeight:"bold"}} className="heading2 animate__animated animate__lightSpeedInRight animate__slow animate__infinite">Welcome to Smart GIS Data Management & Analytics </p>
