@@ -100,7 +100,7 @@ const DigitalPhotogrammetry = () => {
 
                     <h5>Vector Mapping:</h5><br/>
                     <p>
-                    Vector mapping service is a branch of aerial photogrammetry and digital photogrammetry services provided at AABSyS. It is a representation of the earth surface features in 3D manner and used for geospatial analysis and modeling. AABSyS offers the preparation of map by extracting the vector or point information of railroads, buildings, hydrological features, vegetation, etc., as required by the user by different Symbols (trees, wells, poles, etc.,), Line types (rail, road, streams, etc.,) and regions (buildings, tanks, forest, etc.,) with unique ID.<br/>
+                    Vector mapping service is a branch of aerial photogrammetry and digital photogrammetry services provided at bipinmsit. It is a representation of the earth surface features in 3D manner and used for geospatial analysis and modeling. bipinmsit offers the preparation of map by extracting the vector or point information of railroads, buildings, hydrological features, vegetation, etc., as required by the user by different Symbols (trees, wells, poles, etc.,), Line types (rail, road, streams, etc.,) and regions (buildings, tanks, forest, etc.,) with unique ID.<br/>
                     </p>
 
                     <h5>Ortho Photo Generation:</h5><br/>

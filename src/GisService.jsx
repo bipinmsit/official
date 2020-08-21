@@ -35,7 +35,7 @@ const GisService = () => {
                         <figcaption className="figure-caption">GIS Services</figcaption>
                     </figure>
                     <div className="text-justify">
-                        bipinmsit provides numerous GIS services to its clients all over the world. The GIS services rendered by bipinmsit allow for the visualization of geographic data, analysis of spatial relationships, and efficient data management. The GIS data conversions allow data from different sources to be merged in one common format, which allows for easy access, analysis and utilization. <br /> br /
+                        bipinmsit provides numerous GIS services to its clients all over the world. The GIS services rendered by bipinmsit allow for the visualization of geographic data, analysis of spatial relationships, and efficient data management. The GIS data conversions allow data from different sources to be merged in one common format, which allows for easy access, analysis and utilization. <br />
 
                         bipinmsit works on GIS data conversions and prepares electronic maps using Geographic Information Systems (GIS) technology by utilizing the paper or electronic data that has been either captured by the clients or collected otherwise. <br /> <br />
 

@@ -94,6 +94,7 @@ const Footer = () => {
                     <ul className="list-unstyled list-inline">
                     <li className="list-inline-item">
                       {/* put hit count here */}
+                      <div align='center'><a href='https://www.hit-counts.com/'><img src='http://www.hit-counts.com/counter.php?t=MTQ1MTE3OQ==' border='0' alt='logo designers'/></a></div>
                       </li>
                     <li className="list-inline-item">
                         <a href="https://www.youtube.com/channel/UC8ovhNxvvl9vPBXLj80rLVg" className="text-body ml-3">

@@ -37,7 +37,7 @@ const TopographicalMapping = () => {
                     <p>
                     Topographic mapping services helps in route planning, thematic data preparation, and decision-making for telecom and transport services and disaster management. The 3D topographic maps cover an area of approximately thousands of square kilometres and therefor require experienced expertise.<br/><br/>
 
-                    AABSyS IT offers topographic mapping services to create comprehensive topographic maps and 3D topographic maps to the specified projection parameters, contours with ‘Z’ values, relief & planimetric details. AABSyS IT has successfully executed large-scale topographic mapping and 3D topographic mapping project. The general steps involved in topographic mapping and 3D topographic mapping project are:<br/><br/>
+                    bipinmsit offers topographic mapping services to create comprehensive topographic maps and 3D topographic maps to the specified projection parameters, contours with ‘Z’ values, relief & planimetric details. bipinmsit has successfully executed large-scale topographic mapping and 3D topographic mapping project. The general steps involved in topographic mapping and 3D topographic mapping project are:<br/><br/>
                     </p>
 
                     <div className="ml-3">
@@ -46,7 +46,7 @@ const TopographicalMapping = () => {
                         <li>Different features of the 3D topographic maps such as contour lines, boundary lines, transportation, water areas, vegetation, habitations, forest areas etc. are captured</li>
                         <li>These features are then digitized in different layers to generate a topographic map in vector format.</li>
                         <li>The 3D topographic mapping is done by assigning the Z-values to the contours and generating the 3D terrain model of the topography.</li>
-                        <li>With the help of 3D topographic maps AABSyS technical experts create digital terrain models (DTM), digital elevation models (DEM) and triangulated irregular networks (TINs).</li>
+                        <li>With the help of 3D topographic maps bipinmsit technical experts create digital terrain models (DTM), digital elevation models (DEM) and triangulated irregular networks (TINs).</li>
                         </ol>
                     </div>
                 </div>

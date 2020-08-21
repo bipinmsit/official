@@ -58,7 +58,7 @@ const Survey = () => {
                                 <li>DGPS or Differential GPS survey provides improved location accuracy, from the 15-meter nominal GPS accuracy to about 10 cm in case of the best implementations. It is undertaken in two methods: Real Time Kinetic mode and Rapid Static mode. In both the methods, primary control points (PCPs) are required to be set up before taking up detailed survey on all pillar positions that compose the forest area.</li>
                                 <li>TS or total survey is an electronic/optical instrument used in modern surveying and building construction. It is useful to the mining, electrical and mechanical industries.</li>
                                 <li>ETS is used determine geo-coordinates of secondary control points. Integrated ETS equipment is used to conduct such surveys. They are useful for forestry surveys.</li>
-                                <li>Contact or door to door surveys are conducting by the surveyors at AABSyS for various industries.</li>
+                                <li>Contact or door to door surveys are conducting by the surveyors at bipinmsit for various industries.</li>
                             </ul><br/>
                         The surveys can be produced on various platforms such as 2D or 3D AutoCAD, ERDAS, and ARCMap.
 
