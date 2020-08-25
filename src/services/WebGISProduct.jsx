@@ -45,7 +45,13 @@ const WebGISProduct = () => {
             googleSatellite = L.tileLayer("http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}", {subdomains: ['mt0','mt1','mt2','mt3']})
 
         // Creating overlay maps
-        var loc = L.marker([12.942344, 77.581118], {icon:myIcon}).bindPopup('My Location')
+        var loc = L.marker([12.942344, 77.581118], {icon:myIcon})
+        loc.on('mouseover', function(){
+            loc.bindPopup('My Location').openPopup()
+        })
+        loc.on('mouseout', function(){
+            loc.closePopup()
+        })
 
         // Creating Maps
         var map = L.map('map', {
@@ -264,7 +270,12 @@ const WebGISProduct = () => {
                     }
                 }).addTo(drawnItems)
                 if (feature.geometry.type==="Point"){
-                    layer.bindPopup(feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[1]);
+                    layer.on('mouseover', function(){
+                        layer.bindPopup(feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0]).openPopup();
+                    })
+                    layer.on('mouseout', function(){
+                        layer.closePopup();
+                    })
                 }else {
                     layer.bindPopup('FeatureType: ' + feature.geometry.type);
                 }
