@@ -27,6 +27,7 @@ import Service from './Service'
 import Webgis from './services/Webgis'
 import Product from './Product'
 import WebGISProduct from './services/WebGISProduct'
+import Stock from './services/Stock'
 
 const App = () => {
     return(
@@ -57,6 +58,7 @@ const App = () => {
             <Route exact path='/home/service/gisService/survey' component={Survey} />
             <Route exact path='/home/service/enggService/webgis' component={Webgis} />
             <Route exact path='/home/product/webgis' component={WebGISProduct} />
+            <Route exact path='/home/product/stock' component={Stock} />
             <Redirect to='/' />
         </Switch>
         <Footer />

@@ -23,6 +23,20 @@ const Product = () => {
                             </div>
                         </div>
                     </div>
+
+
+                    <div className="col-sm-4">
+                    <div className="card">
+                            <Mymap width={"100%"} height={"30vh"} />
+                            <div className="card-body">
+                                <h5 className="card-title">Stock Manipulation</h5>
+                                <p className="card-text text-justify">
+                                WebGIS is an advanced form of Geospatial Information System available on the web platform. It will help you to perform all GIS related activities on web browser i.e search, digitize, download, upload, modify, measure etc. of geospatial data.
+                                </p>
+                            <NavLink exact to="/home/product/stock" className="btn btn-primary">Subscribe our WebGIS Product</NavLink>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
         </>
