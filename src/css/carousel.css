@@ -1,5 +1,5 @@
 .carousel-caption{
-    top: 11%;
+    top: 10%;
     bottom: auto;
 }
 .carousel-inner .carousel-item .carousel-caption p {
@@ -14,4 +14,7 @@
 .carousel-inner .carousel-item .carousel-caption a{
   margin-top: 1.5vw;
   font-size: .5vw;
+}
+.carousel-inner .carousel-item img {
+  height: 600px;
 }

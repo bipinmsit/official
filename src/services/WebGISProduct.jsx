@@ -79,7 +79,7 @@ const WebGISProduct = () => {
         const provider = new OpenStreetMapProvider();
         const searchControl = new GeoSearchControl({
             provider: provider,
-            position: "topright",
+            position: "topright"
         });
         map.addControl(searchControl);
 
